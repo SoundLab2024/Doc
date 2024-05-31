@@ -377,11 +377,79 @@
 			\includepdf[keepaspectratio]{Documenti/UserPersona3.pdf}
 				
 		\subsection{Valutazione dell'usabilità a priori}
-			\subsubsection{Tabelle di valutazione}
-			\subsubsection{Tecnica utilizzata}
+		Per ottenere una valutazione dell'usabilità a priori più corretta possibile, si è cercato di riprodurre dei prototipi avendo le idee ben chiare sull'aspetto e sulle funzionalità che doveva avere l'applicativo. Si è deciso di restare il più fedeli possibile ai prototipi così da avere una valutazione a priori quanto più vicina a quella a posteriori in beta-testing.
+		I mockup sono stati realizzati su \textbf{Figma} che consente di realizzare rapidamente prototipi interattivi, permettendo di testare e iterare facilmente le idee con gli stakeholder.
+		È più semplice progettare interfacce accessibili e responsive utilizzando i potenti strumenti di layout e tipografia di Figma.\\
+		I mockup, e soprattutto l’app, sono stati realizzati seguendo \textbf{le 8 regole d’oro di Shneiderman}.\\
+		\textit{NOTA: I punti evidenziati sono quelli sui quali è stata posta più attenzione.}
+		\begin{itemize}
+			\item \textbf{Coerenza a tutti i costi}
+			\item \textbf{Usabilità universale}
+			\item Offrire riscontri informativi
+			\item Dialogo con gli utilizzatori
+			\item \textbf{Prevenire gli errori}
+			\item Assicurare la reversibilità
+			\item \textbf{Garantire il controllo degli utenti}
+			\item \textbf{Ridurre il carico di memoria a breve termine}
+		\end{itemize}
+			\subsubsection{Tabelle di valutazione e tecniche utilizzate}
+			Precedentemente sono state chiarite le motivazioni dietro le scelte fatte in termini di design di UI e UX per l’applicativo. Pur ritenendo queste le migliori scelte, è altrettanto importante ottenere un feedback anche dai futuri utenti.
+			Si è scelto quindi di fare una valutazione a priori dell’usabilità dell’applicativo, rispettando \textbf{le regole di Nielsen}\footnote{https://aelaschool.com/en/interactiondesign/10-usability-heuristics-ui-design/}.
+			Sono stati selezionati \textbf{cinque candidati} ai quali è stato richiesto di eseguire \textbf{cinque task}, con pochissime indicazioni da parte del team.
+			\begin{itemize}
+				\item Registrazione di un account
+				\item Creazione di una playlist
+				\item Aggiunta di una canzone ad una playlist
+				\item Modifica password
+				\item Ricerca di un brano musicale
+			\end{itemize}
+			La scelta dei candidati è stata invece fatta sulla base della loro età e delle loro competenze digitali.
+			Questi ultimi due valori saranno classificati in tale modo:
+			\begin{itemize}
+				\item \textbf{Naive:} useremo \textbf{N} per indicare ciò
+				\item \textbf{Abile:} useremo \textbf{A} per indicare ciò
+				\item \textbf{Esperto:} useremo \textbf{E} per indicare ciò
+			\end{itemize}
+			L’eventuale riuscita o meno delle task sarà segnata invece come:
+			\begin{itemize}
+				\item \textbf{F:} per indicare che la task non è stata completata
+				\item \textbf{S:} per indicare che la task è stata completata con successo
+				\item \textbf{//:} per indicare che la task è stata portata a termine, ma il candidato ha avuto bisogno di qualche aiuto in più su come procedere
+			\end{itemize}
+			\includepdf[keepaspectratio]{Documenti/tabelleutenti}
+			In generale si è piuttosto soddisfatti dei risultati. I candidati hanno tutti concordato sulla generale intuitività dell’interfaccia grafica e il numero di fallimenti è stato piuttosto limitato. 
+			Molto importante per il team è stato soprattutto notare come i due candidati adulti siano riusciti comunque a stabilire più successi che fallimenti, seppur necessitando spesso di conferme su quello che stavano facendo.
+			\newpage
+		\subsection{Prototipazione funzionale via statechart dell’interfaccia grafica}
+		Di seguito vengono rappresentate mediante statechart \textbf{l'aggiunta di una playlist alle preferite} piattaforma e \textbf{l'eliminazione di una playlist}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/statechart1}
+			\caption{Statechart Inserisci playlist ai preferiti}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/statechart2}
+			\caption{Statechart Elimina playlist}
+		\end{figure}
 		\subsection{Glossario}
 			\subsubsection{Termini}
-			\subsubsection{Acronimi}
+			\begin{itemize}
+				\item \textbf{\textit{\textcolor{dark_purple}{Actor}}} Nelle tabelle di Cockburn o negli Use Case Diagram, è la persona che interagisce con il sistema
+				\item \textbf{\textit{\textcolor{dark_purple}{Database}}} Un archivio di dati strutturato per la memorizzazione persistente, la gestione e l’aggiornamento di informazioni utiliper il sistema
+				\item \textbf{\textit{\textcolor{dark_purple}{Back-end}}} Parte di sviluppo che non opera sul client e che fornisce unservizio.
+				\item \textbf{\textit{\textcolor{dark_purple}{Android}}} Sistema operativo mobile
+				\item \textbf{\textit{\textcolor{dark_purple}{Mockup}}} È una rappresentazione grafica a scopo illustrativo di un oggetto o un sistema. Nel nostro caso, l’uso dei mock-up è funzionale a mostrare il funzionamento di specifiche interazioni col sistema
+				\item \textbf{\textit{\textcolor{dark_purple}{Tabelle di Cockburn}}} Descrizione in linguaggio naturale delle azioni necessarie all’esecuzione di un caso d’uso
+				\item \textbf{\textit{\textcolor{dark_purple}{Use Case}}} La rappresentazione di un’astrazione che descrive una classe di scenario del sistema
+				\item \textbf{\textit{\textcolor{dark_purple}{Statechart}}} Un diagramma per descrivere il comportamento di entità o di classi in termini di stato (macchina a stati
+				\item \textbf{\textit{\textcolor{dark_purple}{UX Design}}} Tutto ciò che afferisce l’interazione tra una persona con un prodotto, un servizio o un sistema
+				\item \textbf{\textit{\textcolor{dark_purple}{Classe}}} Nella programmazione orientata a oggetti, una classe fa riferimento a un insieme di oggetti con proprietà comuni.
+				\item \textbf{\textit{\textcolor{dark_purple}{Framework}}} Architettura logica di supporto sulla quale un software può essere progettato e realizzato, facilitandone lo sviluppo.
+				\item \textbf{\textit{\textcolor{dark_purple}{Scalabilità}}} Capacità di un sistema di aumentare o diminuire di scala in funzione delle necessità.
+				\item \textbf{\textit{\textcolor{dark_purple}{Usabilità}}}Il "grado in cui un prodotto può essere usato daparticolari utenti per raggiungere certi obiettivi con efficacia, efficienza e soddisfazione in uno specifico contesto d’uso.
+				\item \textbf{\textit{\textcolor{dark_purple}{Elasticità}}} Si riferisce alla capacità di un servizio cloud di offrire servizisu richiesta aumentando o diminuendo le risorse quando la domanda sale oscende.
+			\end{itemize}
 	\section{Modelli di dominio}
 		\subsection{Classi, oggetti e relazioni di analisi}
 			\subsubsection{Classi ed entità}
