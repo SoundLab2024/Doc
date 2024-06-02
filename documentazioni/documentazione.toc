@@ -30,33 +30,32 @@
 \contentsline {subsection}{\numberline {2.8}Prototipazione funzionale via statechart dell’interfaccia grafica}{50}{}%
 \contentsline {subsection}{\numberline {2.9}Glossario}{51}{}%
 \contentsline {subsubsection}{\numberline {2.9.1}Termini}{51}{}%
-\contentsline {section}{\numberline {3}Modelli di dominio}{53}{}%
-\contentsline {subsection}{\numberline {3.1}Classi, oggetti e relazioni di analisi}{53}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}Classi ed entità}{53}{}%
+\contentsline {section}{\numberline {3}Modelli di dominio}{52}{}%
+\contentsline {subsection}{\numberline {3.1}Classi, oggetti e relazioni di analisi}{52}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Classi ed entità}{52}{}%
 \contentsline {subsubsection}{\numberline {3.1.2}Class diagram delle funzionalità}{53}{}%
-\contentsline {subsubsection}{\numberline {3.1.3}CLASS DIAGRAM DI TUTTE LE FUNZIONALITà}{53}{}%
-\contentsline {subsection}{\numberline {3.2}Sequence diagram}{53}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Funzionalità 1}{53}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Funzionalità 2}{53}{}%
-\contentsline {subsection}{\numberline {3.3}Activity diagram}{53}{}%
-\contentsline {subsubsection}{\numberline {3.3.1}ACTIVITY DIAGRAM}{53}{}%
-\contentsline {section}{\numberline {4}Design di sistema}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.1}Analisi architetturale}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.2}Descrizione architettura cloud}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.3}Il server}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.4}REST API}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.5}Il client}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.6}Supporti (RetroFit)}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.7}Class Diagram di Design}{53}{}%
-\contentsline {subsubsection}{\numberline {4.0.8}Diagrammi del punto USE CASE}{53}{}%
-\contentsline {section}{\numberline {5}Codice sorgente sviluppato}{53}{}%
-\contentsline {section}{\numberline {6}Codice xUnit}{53}{}%
-\contentsline {subsubsection}{\numberline {6.0.1}Metodo 1}{53}{}%
-\contentsline {subsubsection}{\numberline {6.0.2}Metodo 2}{53}{}%
-\contentsline {subsubsection}{\numberline {6.0.3}Metodo 3}{53}{}%
-\contentsline {subsubsection}{\numberline {6.0.4}Metodo 4}{53}{}%
-\contentsline {section}{\numberline {7}Valutazione dell'usabilità sul campo}{53}{}%
-\contentsline {subsubsection}{\numberline {7.0.1}Valutazione dell'applicativo}{53}{}%
-\contentsline {subsubsection}{\numberline {7.0.2}Analisi delle performance}{53}{}%
-\contentsline {subsubsection}{\numberline {7.0.3}Distribuzione ed accoglienza VALUTARE}{53}{}%
-\contentsline {section}{\numberline {8}Conclusione (Riepilogo)}{53}{}%
+\contentsline {subsection}{\numberline {3.2}Sequence diagram}{57}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Sequence Diagram Aggiungi playlist}{57}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Sequence Diagram Elimina profilo}{58}{}%
+\contentsline {subsection}{\numberline {3.3}Activity diagram}{58}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Activity diagram}{59}{}%
+\contentsline {section}{\numberline {4}Design di sistema}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.1}Analisi architetturale}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.2}Descrizione architettura cloud}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.3}Il server}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.4}REST API}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.5}Il client}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.6}Supporti (RetroFit)}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.7}Class Diagram di Design}{64}{}%
+\contentsline {subsubsection}{\numberline {4.0.8}Diagrammi del punto USE CASE}{64}{}%
+\contentsline {section}{\numberline {5}Codice sorgente sviluppato}{64}{}%
+\contentsline {section}{\numberline {6}Codice xUnit}{64}{}%
+\contentsline {subsubsection}{\numberline {6.0.1}Metodo 1}{64}{}%
+\contentsline {subsubsection}{\numberline {6.0.2}Metodo 2}{64}{}%
+\contentsline {subsubsection}{\numberline {6.0.3}Metodo 3}{64}{}%
+\contentsline {subsubsection}{\numberline {6.0.4}Metodo 4}{64}{}%
+\contentsline {section}{\numberline {7}Valutazione dell'usabilità sul campo}{64}{}%
+\contentsline {subsubsection}{\numberline {7.0.1}Valutazione dell'applicativo}{64}{}%
+\contentsline {subsubsection}{\numberline {7.0.2}Analisi delle performance}{64}{}%
+\contentsline {subsubsection}{\numberline {7.0.3}Distribuzione ed accoglienza VALUTARE}{64}{}%
+\contentsline {section}{\numberline {8}Conclusione (Riepilogo)}{64}{}%

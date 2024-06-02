@@ -93,7 +93,7 @@
 		\subsection{Tecnologie utilizzate}
 		L'applicativo è sviluppato interamente su piattaforma \textbf{\textit{\textcolor{dark_purple}{Android}}} utilizzando il linguaggio di programmazione \textbf{\textit{\textcolor{dark_purple}{Object-Oriented}}}, in particolare \textbf{\textit{\textcolor{dark_purple}{Java}}}.\\
 		Questa scelta tecnologica garantisce robustezza, flessibilità e una vasta compatibilità con dispositivi Android di diverse generazioni. Inoltre, l'applicazione è dotata di un sistema di logging avanzato che facilita il testing efficace e la risoluzione rapida dei problemi, migliorando la qualità complessiva del software e l'esperienza utente.\\
-		Per il back-end, SoundLab sfrutta tecnologie all'avanguardia, tra cui servizi di \textit{public Cloud Computing} come (???), che permettono di massimizzare la scalabilità e le prestazioni del sistema. Questi servizi cloud offrono una piattaforma affidabile e sicura per la gestione dei dati, consentendo al sistema di adattarsi dinamicamente al crescente numero di utenti e alle richieste variabili. La combinazione di un'applicazione front-end potente e intuitiva con un back-end scalabile e performante garantisce un servizio eccellente e un'esperienza utente ottimale.
+		Per il back-end, SoundLab sfrutta tecnologie all'avanguardia, tra cui servizi di \textit{public Cloud Computing} che permettono di massimizzare la scalabilità e le prestazioni del sistema. Questi servizi cloud offrono una piattaforma affidabile e sicura per la gestione dei dati, consentendo al sistema di adattarsi dinamicamente al crescente numero di utenti e alle richieste variabili. La combinazione di un'applicazione front-end potente e intuitiva con un back-end scalabile e performante garantisce un servizio eccellente e un'esperienza utente ottimale.
 		\\
 		\\
 		Nei capitoli successivi, approfondiremo ulteriormente il discorso sulle tecnologie utilizzate e forniremo, come richiesto da SoftEngUniNa, i documenti relativi al lavoro svolto per la realizzazione del progetto.
@@ -447,19 +447,116 @@
 				\item \textbf{\textit{\textcolor{dark_purple}{Classe}}} Nella programmazione orientata a oggetti, una classe fa riferimento a un insieme di oggetti con proprietà comuni.
 				\item \textbf{\textit{\textcolor{dark_purple}{Framework}}} Architettura logica di supporto sulla quale un software può essere progettato e realizzato, facilitandone lo sviluppo.
 				\item \textbf{\textit{\textcolor{dark_purple}{Scalabilità}}} Capacità di un sistema di aumentare o diminuire di scala in funzione delle necessità.
-				\item \textbf{\textit{\textcolor{dark_purple}{Usabilità}}}Il "grado in cui un prodotto può essere usato daparticolari utenti per raggiungere certi obiettivi con efficacia, efficienza e soddisfazione in uno specifico contesto d’uso.
-				\item \textbf{\textit{\textcolor{dark_purple}{Elasticità}}} Si riferisce alla capacità di un servizio cloud di offrire servizisu richiesta aumentando o diminuendo le risorse quando la domanda sale oscende.
+				\item \textbf{\textit{\textcolor{dark_purple}{Usabilità}}} Il "grado in cui un prodotto può essere usato da particolari utenti per raggiungere certi obiettivi con efficacia, efficienza e soddisfazione in uno specifico contesto d’uso.
+				\item \textbf{\textit{\textcolor{dark_purple}{Elasticità}}} Si riferisce alla capacità di un servizio cloud di offrire servizi su richiesta aumentando o diminuendo le risorse quando la domanda sale o scende.
 			\end{itemize}
 	\section{Modelli di dominio}
+	In questa sezione verranno analizzati i modelli di dominio dell'applicazione ancora in fase di analisi dei requisiti.
+	In particolare utilizzeremo per tale analisi:
+	\begin{itemize}
+		\item \textbf{Class Diagram}
+		\item \textbf{Sequence Diagram}
+		\item \textbf{Diagramma di attività}
+	\end{itemize}
+	Per far si che ci sia una facile comprensione e per individuare classi ed entità in gioco è stata ritenuta fondamentale l’euristica\textbf{ Three Object-Type} o anche conosciuta con tre acronimi:
+	\begin{itemize}
+		\item \textbf{ Entity:} entità o modelli che sono in gioco
+		\item \textbf{Boundary:} rappresentano le interazioni tra sistema ed utente
+		\item \textbf{Control:} rappresentano i controller o meglio definita la logica del sistema che si occupa di definire gli use case sotto sviluppo
+	\end{itemize}
 		\subsection{Classi, oggetti e relazioni di analisi}
 			\subsubsection{Classi ed entità}
+			Di seguito verrà riportata una rappresentazione delle entità che sono state individuate e che saranno esse stesso gli oggetti in gioco per i vari use case assegnati.
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramgenerale}
+				\caption{Class Diagram generale}
+			\end{figure}
 			\subsubsection{Class diagram delle funzionalità}
-			\subsubsection{CLASS DIAGRAM DI TUTTE LE FUNZIONALITà}
+			In questa sezione elencheremo tutti i classdiagram suddivisi.\\
+			\textit{NOTA: Per una questione puramente stilistica volta ad una comprensione facilitata dei class diagram, si è optato per utilizzare bianco e nero, piuttosto che il viola.}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramplaylist}
+				\caption{Class Diagram Playlist}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramlogin}
+				\caption{Class Diagram Login}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramregistrazione}
+				\caption{Class Diagram Registrazione}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramprofilo}
+				\caption{Class Diagram Profilo}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramlistening}
+				\caption{Class Diagram Listening}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/classdiagramsearch}
+				\caption{Class Diagram Search}
+			\end{figure}
 		\subsection{Sequence diagram}
-			\subsubsection{Funzionalità 1}
-			\subsubsection{Funzionalità 2}
+		Un \textbf{Sequence Diagram} è un diagramma previsto dall'UML utilizzato per descrivere uno \textbf{scenario}. \\Uno scenario è una determinata sequenza di azioni in cui tutte le scelte sono state già effettuate.
+			\subsubsection{Sequence Diagram Aggiungi playlist}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/sequencediagramaggiungi}
+				\caption{Class Diagram Aggiungi playlist}
+			\end{figure}
+			\subsubsection{Sequence Diagram Elimina profilo}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/sequencediagramcancella}
+				\caption{Class Diagram Elimina Profilo}
+			\end{figure}
 		\subsection{Activity diagram}
-			\subsubsection{ACTIVITY DIAGRAM}
+		Il \textbf{diagramma di attività} è un tipo di diagramma che permette di descrivere un processo attraverso dei grafi in cui i nodi rappresentano le attività e gli archi l'ordine con cui vengono eseguite.
+			\subsubsection{Activity diagram}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/activitydiagramplaylist}
+				\caption{Activity Diagram funzioni playlist}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/activitydiagramlogin}
+				\caption{Activity Diagram Login}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/activitydiagramregistration}
+				\caption{Activity Diagram Registrazione}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/activitydiagramsearch}
+				\caption{Activity Diagram Ricerca}
+			\end{figure}
+			\vspace{0.9cm}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=1.0\textwidth]{Immagini/activitydiagramsettings}
+				\caption{Activity Diagram azioni settings}
+			\end{figure}
+			
 	\section{Design di sistema}
 		\subsubsection{Analisi architetturale}
 		\subsubsection{Descrizione architettura cloud}

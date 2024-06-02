@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  1 JUN 2024 00:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  2 JUN 2024 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1422,21 +1422,115 @@ File: Immagini/statechart2.jpg Graphic file (type jpg)
 <use Immagini/statechart2.jpg>
 Package pdftex.def Info: Immagini/statechart2.jpg  used on input line 432.
 (pdftex.def)             Requested size: 387.00153pt x 241.97481pt.
- [50 <./Immagini/statechart1.jpg>] [51 <./Immagini/statechart2.jpg>] [52]
-Overfull \vbox (51.88776pt too high) has occurred while \output is active []
-
-
-[53] (./documentazione.aux)
+ [50 <./Immagini/statechart1.jpg>] [51 <./Immagini/statechart2.jpg>]
+<Immagini/classdiagramgenerale.png, id=610, 828.09375pt x 603.75563pt>
+File: Immagini/classdiagramgenerale.png Graphic file (type png)
+<use Immagini/classdiagramgenerale.png>
+Package pdftex.def Info: Immagini/classdiagramgenerale.png  used on input line 
+472.
+(pdftex.def)             Requested size: 387.00153pt x 282.1622pt.
+ [52]
+<Immagini/classdiagramplaylist.png, id=614, 1116.42094pt x 876.27374pt>
+File: Immagini/classdiagramplaylist.png Graphic file (type png)
+<use Immagini/classdiagramplaylist.png>
+Package pdftex.def Info: Immagini/classdiagramplaylist.png  used on input line 
+480.
+(pdftex.def)             Requested size: 387.00153pt x 303.75882pt.
+<Immagini/classdiagramlogin.png, id=615, 1948.27875pt x 1080.28593pt>
+File: Immagini/classdiagramlogin.png Graphic file (type png)
+<use Immagini/classdiagramlogin.png>
+Package pdftex.def Info: Immagini/classdiagramlogin.png  used on input line 486
+.
+(pdftex.def)             Requested size: 387.00153pt x 214.58629pt.
+ [53 <./Immagini/classdiagramgenerale.png>]
+<Immagini/classdiagramregistrazione.png, id=620, 3535.2075pt x 1778.14313pt>
+File: Immagini/classdiagramregistrazione.png Graphic file (type png)
+<use Immagini/classdiagramregistrazione.png>
+Package pdftex.def Info: Immagini/classdiagramregistrazione.png  used on input 
+line 492.
+(pdftex.def)             Requested size: 387.00153pt x 194.64671pt.
+ [54 <./Immagini/classdiagramplaylist.png>]
+<Immagini/classdiagramprofilo.png, id=625, 4139.71594pt x 1529.715pt>
+File: Immagini/classdiagramprofilo.png Graphic file (type png)
+<use Immagini/classdiagramprofilo.png>
+Package pdftex.def Info: Immagini/classdiagramprofilo.png  used on input line 4
+98.
+(pdftex.def)             Requested size: 387.00153pt x 142.99028pt.
+<Immagini/classdiagramlistening.png, id=626, 3554.78062pt x 780.66656pt>
+File: Immagini/classdiagramlistening.png Graphic file (type png)
+<use Immagini/classdiagramlistening.png>
+Package pdftex.def Info: Immagini/classdiagramlistening.png  used on input line
+ 504.
+(pdftex.def)             Requested size: 387.00153pt x 84.98018pt.
+ [55 <./Immagini/classdiagramlogin.png> <./Immagini/classdiagramregistrazione.p
+ng>]
+<Immagini/classdiagramsearch.png, id=633, 2534.71968pt x 836.3747pt>
+File: Immagini/classdiagramsearch.png Graphic file (type png)
+<use Immagini/classdiagramsearch.png>
+Package pdftex.def Info: Immagini/classdiagramsearch.png  used on input line 51
+0.
+(pdftex.def)             Requested size: 387.00153pt x 127.6969pt.
+ [56 <./Immagini/classdiagramprofilo.png> <./Immagini/classdiagramlistening.png
+> <./Immagini/classdiagramsearch.png>]
+<Immagini/sequencediagramaggiungi.png, id=640, 1137.4997pt x 639.89063pt>
+File: Immagini/sequencediagramaggiungi.png Graphic file (type png)
+<use Immagini/sequencediagramaggiungi.png>
+Package pdftex.def Info: Immagini/sequencediagramaggiungi.png  used on input li
+ne 518.
+(pdftex.def)             Requested size: 387.00153pt x 217.70639pt.
+<Immagini/sequencediagramcancella.png, id=641, 1107.38719pt x 883.80188pt>
+File: Immagini/sequencediagramcancella.png Graphic file (type png)
+<use Immagini/sequencediagramcancella.png>
+Package pdftex.def Info: Immagini/sequencediagramcancella.png  used on input li
+ne 524.
+(pdftex.def)             Requested size: 387.00153pt x 308.8633pt.
+ [57 <./Immagini/sequencediagramaggiungi.png>]
+<Immagini/activitydiagramplaylist.png, id=646, 785.93625pt x 516.93124pt>
+File: Immagini/activitydiagramplaylist.png Graphic file (type png)
+<use Immagini/activitydiagramplaylist.png>
+Package pdftex.def Info: Immagini/activitydiagramplaylist.png  used on input li
+ne 532.
+(pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
+<Immagini/activitydiagramlogin.png, id=647, 785.93625pt x 516.93124pt>
+File: Immagini/activitydiagramlogin.png Graphic file (type png)
+<use Immagini/activitydiagramlogin.png>
+Package pdftex.def Info: Immagini/activitydiagramlogin.png  used on input line 
+538.
+(pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
+ [58 <./Immagini/sequencediagramcancella.png>]
+<Immagini/activitydiagramregistration.png, id=652, 785.93625pt x 516.93124pt>
+File: Immagini/activitydiagramregistration.png Graphic file (type png)
+<use Immagini/activitydiagramregistration.png>
+Package pdftex.def Info: Immagini/activitydiagramregistration.png  used on inpu
+t line 544.
+(pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
+ [59 <./Immagini/activitydiagramplaylist.png>]
+<Immagini/activitydiagramsearch.png, id=657, 785.93625pt x 516.93124pt>
+File: Immagini/activitydiagramsearch.png Graphic file (type png)
+<use Immagini/activitydiagramsearch.png>
+Package pdftex.def Info: Immagini/activitydiagramsearch.png  used on input line
+ 550.
+(pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
+ [60 <./Immagini/activitydiagramlogin.png>]
+<Immagini/activitydiagramsettings.png, id=662, 785.93625pt x 516.93124pt>
+File: Immagini/activitydiagramsettings.png Graphic file (type png)
+<use Immagini/activitydiagramsettings.png>
+Package pdftex.def Info: Immagini/activitydiagramsettings.png  used on input li
+ne 556.
+(pdftex.def)             Requested size: 430.00462pt x 282.83017pt.
+ [61 <./Immagini/activitydiagramregistration.png>] [62 <./Immagini/activitydiag
+ramsearch.png>] [63 <./Immagini/activitydiagramsettings.png>] [64] (./documenta
+zione.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6328 strings out of 474141
- 106312 string characters out of 5748625
+ 6482 strings out of 474141
+ 112510 string characters out of 5748625
  1940998 words of memory out of 5000000
- 28572 multiletter control sequences out of 15000+600000
+ 28726 multiletter control sequences out of 15000+600000
  568534 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,17n,79p,863b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1448,10 +1542,10 @@ fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type
 m-super/sfrm0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
 rm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 ><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on documentazione.pdf (53 pages, 15428200 bytes).
+Output written on documentazione.pdf (64 pages, 17170740 bytes).
 PDF statistics:
- 661 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
+ 725 PDF objects out of 1000 (max. 8388607)
+ 419 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 words of extra memory for PDF output out of 10000 (max. 10000000)
 
