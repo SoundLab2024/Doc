@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  2 JUN 2024 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.15)  6 JUN 2024 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -172,47 +172,49 @@ Package babel Info: Importing font and identification data for italian
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count278
 )
-(c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
-Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+(c:/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count279
+\lst@gtempboxa=\box97
+\lst@token=\toks21
+\lst@length=\count280
+\lst@currlwidth=\dimen151
+\lst@column=\count281
+\lst@pos=\count282
+\lst@lostspace=\dimen152
+\lst@width=\dimen153
+\lst@newlines=\count283
+\lst@lineno=\count284
+\lst@maxwidth=\dimen154
 
-(c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen151
-\ar@mcellbox=\box97
-\extrarowheight=\dimen152
-\NC@list=\toks21
-\extratabsurround=\skip52
-\backup@length=\skip53
-\ar@cellbox=\box98
+(c:/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count285
+\lst@skipnumbers=\count286
+\lst@framebox=\box98
 )
-\rotheadsize=\dimen153
-\c@nlinenum=\count279
-\TeXr@lab=\toks22
-)
-(c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+(c:/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
-(c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen155
+\pgfutil@tempdimb=\dimen156
 )
-(c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count280
-\calc@Bcount=\count281
-\calc@Adimen=\dimen154
-\calc@Bdimen=\dimen155
-\calc@Askip=\skip54
-\calc@Bskip=\skip55
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count282
-\calc@Cskip=\skip56
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box99
 )
-(c:/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen156
-\ESO@tempdimb=\dimen157
-)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -227,24 +229,433 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
-\AM@pagewidth=\dimen160
-\AM@pageheight=\dimen161
-\AM@fboxrule=\dimen162
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count287
+\c@pgf@countb=\count288
+\c@pgf@countc=\count289
+\c@pgf@countd=\count290
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count291
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count292
+\pgfsyssoftpath@bigbuffer@items=\count293
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count294
+\pgfmath@box=\box100
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count295
+))
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box101
+\pgf@hbox=\box102
+\pgf@layerbox@main=\box103
+\pgf@picture@serial@count=\count296
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen188
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen192
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count297
+\pgf@shadingcount=\count298
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box104
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box105
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+)
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count299
+\pgfplotmarksize=\dimen198
+)
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box106
+\tikz@figbox@bg=\box107
+\tikz@tempbox=\box108
+\tikz@tempbox@bg=\box109
+\tikztreelevel=\count300
+\tikznumberofchildren=\count301
+\tikznumberofcurrentchild=\count302
+\tikz@fig@count=\count303
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count304
+\pgfmatrixcurrentcolumn=\count305
+\pgf@matrix@numberofcolumns=\count306
+)
+\tikz@expandcount=\count307
+
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count308
+)
+\@linkdim=\dimen263
+\Hy@linkcounter=\count309
+\Hy@pagecounter=\count310
+
+(c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count311
+
+(c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+\c@Hy@tempcnt=\count312
+
+(c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen264
+
+(c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count313
+\Field@Width=\dimen265
+\Fld@charsize=\dimen266
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing OFF on input line 6078.
+Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count314
+\c@Item=\count315
+\c@Hfootnote=\count316
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count317
+\c@bookmark@seq@number=\count318
+
+(c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip52
+)
+(c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen267
+\ar@mcellbox=\box110
+\extrarowheight=\dimen268
+\NC@list=\toks34
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box111
+)
+\rotheadsize=\dimen269
+\c@nlinenum=\count319
+\TeXr@lab=\toks35
+)
+(c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count320
+\calc@Bcount=\count321
+\calc@Adimen=\dimen270
+\calc@Bdimen=\dimen271
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count322
+\calc@Cskip=\skip57
+)
+(c:/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen272
+\ESO@tempdimb=\dimen273
+)
+\AM@pagewidth=\dimen274
+\AM@pageheight=\dimen275
+\AM@fboxrule=\dimen276
 
 (c:/texlive/2023/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count283
-\AM@pagebox=\box99
-\AM@global@opts=\toks23
-\AM@pagecnt=\count284
-\AM@toc@title=\toks24
-\AM@lof@heading=\toks25
-\c@AM@survey=\count285
-\AM@templatesizebox=\box100
+\pdfpages@includegraphics@status=\count323
+\AM@pagebox=\box112
+\AM@global@opts=\toks36
+\AM@pagecnt=\count324
+\AM@toc@title=\toks37
+\AM@lof@heading=\toks38
+\c@AM@survey=\count325
+\AM@templatesizebox=\box113
 )
 (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -252,91 +663,95 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count286
-\Gm@cntv=\count287
-\c@Gm@tempcnt=\count288
-\Gm@bindingoffset=\dimen163
-\Gm@wd@mp=\dimen164
-\Gm@odd@mp=\dimen165
-\Gm@even@mp=\dimen166
-\Gm@layoutwidth=\dimen167
-\Gm@layoutheight=\dimen168
-\Gm@layouthoffset=\dimen169
-\Gm@layoutvoffset=\dimen170
-\Gm@dimlist=\toks26
+\Gm@cnth=\count326
+\Gm@cntv=\count327
+\c@Gm@tempcnt=\count328
+\Gm@bindingoffset=\dimen277
+\Gm@wd@mp=\dimen278
+\Gm@odd@mp=\dimen279
+\Gm@even@mp=\dimen280
+\Gm@layoutwidth=\dimen281
+\Gm@layoutheight=\dimen282
+\Gm@layouthoffset=\dimen283
+\Gm@layoutvoffset=\dimen284
+\Gm@dimlist=\toks39
 )
 (c:/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip57
-\multirow@cntb=\count289
-\multirow@dima=\skip58
-\bigstrutjot=\dimen171
+\multirow@colwidth=\skip58
+\multirow@cntb=\count329
+\multirow@dima=\skip59
+\bigstrutjot=\dimen285
 )
 (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen172
-\TX@old@table=\dimen173
-\TX@old@col=\dimen174
-\TX@target=\dimen175
-\TX@delta=\dimen176
-\TX@cols=\count290
-\TX@ftn=\toks27
+\TX@col@width=\dimen286
+\TX@old@table=\dimen287
+\TX@old@col=\dimen288
+\TX@target=\dimen289
+\TX@delta=\dimen290
+\TX@cols=\count330
+\TX@ftn=\toks40
 )
 (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count291
-\float@exts=\toks28
-\float@box=\box101
-\@float@everytoks=\toks29
-\@floatcapt=\box102
+\c@float@type=\count331
+\float@exts=\toks41
+\float@box=\box114
+\@float@everytoks=\toks42
+\@floatcapt=\box115
 )
 (c:/texlive/2023/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
-\everycr=\toks30
-\minrowclearance=\skip59
-\rownum=\count292
+\everycr=\toks43
+\minrowclearance=\skip60
+\rownum=\count332
 )
-\documentazione@idxfile=\write3
-\openout3 = `documentazione.idx'.
+\documentazione@idxfile=\write4
+\openout4 = `documentazione.idx'.
 
 
 Writing index file documentazione.idx
 (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box103
+\l__color_backend_stack_int=\count333
+\l__pdf_internal_box=\box116
 )
 (./documentazione.aux)
 \openout1 = `documentazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen177
-\scratchbox=\box104
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen178
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count334
+\scratchdimen=\dimen291
+\scratchbox=\box117
+\nofMPsegments=\count335
+\nofMParguments=\count336
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count337
+\MPscratchDim=\dimen292
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
+\everyMPtoPDFconversion=\toks45
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -346,8 +761,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \it@ocap on input line 27.
-LaTeX Info: Redefining \it@ccap on input line 27.
+LaTeX Info: Redefining \it@ocap on input line 44.
+LaTeX Info: Redefining \it@ccap on input line 44.
+\c@lstlisting=\count340
+Package hyperref Info: Link coloring OFF on input line 44.
+
+(./documentazione.out) (./documentazione.out)
+\@outlinefile=\write5
+\openout5 = `documentazione.out'.
+
 
 (c:/texlive/2023/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -395,15 +817,15 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Immagini/logo_universita.png, id=1, 240.9pt x 240.9pt>
+<Immagini/logo_universita.png, id=276, 240.9pt x 240.9pt>
 File: Immagini/logo_universita.png Graphic file (type png)
 <use Immagini/logo_universita.png>
-Package pdftex.def Info: Immagini/logo_universita.png  used on input line 32.
+Package pdftex.def Info: Immagini/logo_universita.png  used on input line 49.
 (pdftex.def)             Requested size: 85.9996pt x 85.99979pt.
-<Immagini/logo_sfondo.png, id=3, 514.92375pt x 194.97844pt>
+<Immagini/logo_sfondo.png, id=278, 514.92375pt x 194.97844pt>
 File: Immagini/logo_sfondo.png Graphic file (type png)
 <use Immagini/logo_sfondo.png>
-Package pdftex.def Info: Immagini/logo_sfondo.png  used on input line 42.
+Package pdftex.def Info: Immagini/logo_sfondo.png  used on input line 59.
 (pdftex.def)             Requested size: 258.00539pt x 97.69722pt.
 (./documentazione.toc [1
 
@@ -415,81 +837,108 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 4.
  [2])
-\tf@toc=\write4
-\openout4 = `documentazione.toc'.
+\tf@toc=\write6
+\openout6 = `documentazione.toc'.
 
  [3]
-<Immagini/5870.jpg, id=20, 7026.25pt x 5018.75pt>
+<Immagini/5870.jpg, id=366, 7026.25pt x 5018.75pt>
 File: Immagini/5870.jpg Graphic file (type jpg)
 <use Immagini/5870.jpg>
-Package pdftex.def Info: Immagini/5870.jpg  used on input line 86.
+Package pdftex.def Info: Immagini/5870.jpg  used on input line 103.
 (pdftex.def)             Requested size: 387.00153pt x 276.37671pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--87
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
 
  []
 
 [4
 
  <./Immagini/5870.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 117--117
+Underfull \hbox (badness 3179) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/10 Visualizzazione sta-ti-sti-che (so-lo
  []
 
 [5] [6]
-Underfull \hbox (badness 2875) in paragraph at lines 143--144
+Underfull \hbox (badness 2875) in paragraph at lines 160--161
 []|\T1/cmr/m/n/10 Il si-ste-ma de-ve es-se-re con-for-me al-lo stan-dard
  []
 
 [7]
-<Immagini/usecasegenerale.png.png, id=37, 828.09375pt x 944.7797pt>
+<Immagini/usecasegenerale.png.png, id=387, 828.09375pt x 944.7797pt>
 File: Immagini/usecasegenerale.png.png Graphic file (type png)
 <use Immagini/usecasegenerale.png.png>
 Package pdftex.def Info: Immagini/usecasegenerale.png.png  used on input line 1
-54.
+71.
 (pdftex.def)             Requested size: 344.005pt x 392.47992pt.
- [8 <./Immagini/usecasegenerale.png.png>]
-<Immagini/Funzioniplaylist.png.png, id=42, 828.09375pt x 680.5425pt>
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.179 				\item C
+                 reare una nuova playlist <./Immagini/usecasegenerale.png.png>]
+<Immagini/Funzioniplaylist.png.png, id=394, 828.09375pt x 680.5425pt>
 File: Immagini/Funzioniplaylist.png.png Graphic file (type png)
 <use Immagini/Funzioniplaylist.png.png>
 Package pdftex.def Info: Immagini/Funzioniplaylist.png.png  used on input line 
-173.
+190.
 (pdftex.def)             Requested size: 387.00153pt x 318.04816pt.
- [9{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Im
-magini/Funzioniplaylist.png.png>]
-<Immagini/aggiuntarimozione.png.jpg, id=48, 1104.125pt x 652.4375pt>
+[9{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.195 			
+          <./Immagini/Funzioniplaylist.png.png>]
+<Immagini/aggiuntarimozione.png.jpg, id=402, 1104.125pt x 652.4375pt>
 File: Immagini/aggiuntarimozione.png.jpg Graphic file (type jpg)
 <use Immagini/aggiuntarimozione.png.jpg>
 Package pdftex.def Info: Immagini/aggiuntarimozione.png.jpg  used on input line
- 181.
+ 198.
 (pdftex.def)             Requested size: 387.00153pt x 228.68507pt.
-
-[10 <./Immagini/aggiuntarimozione.png.jpg>]
-<Immagini/aggiuntatraccia.png.jpg, id=52, 1104.125pt x 782.925pt>
+ [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.201 			\newpage
+                  <./Immagini/aggiuntarimozione.png.jpg>]
+<Immagini/aggiuntatraccia.png.jpg, id=408, 1104.125pt x 782.925pt>
 File: Immagini/aggiuntatraccia.png.jpg Graphic file (type jpg)
 <use Immagini/aggiuntatraccia.png.jpg>
-Package pdftex.def Info: Immagini/aggiuntatraccia.png.jpg  used on input line 1
-90.
+Package pdftex.def Info: Immagini/aggiuntatraccia.png.jpg  used on input line 2
+07.
 (pdftex.def)             Requested size: 387.00153pt x 274.42209pt.
-<Immagini/analitiche.png.jpg, id=53, 1336.995pt x 819.06pt>
+<Immagini/analitiche.png.jpg, id=409, 1336.995pt x 819.06pt>
 File: Immagini/analitiche.png.jpg Graphic file (type jpg)
 <use Immagini/analitiche.png.jpg>
-Package pdftex.def Info: Immagini/analitiche.png.jpg  used on input line 203.
+Package pdftex.def Info: Immagini/analitiche.png.jpg  used on input line 220.
 (pdftex.def)             Requested size: 387.00153pt x 237.0839pt.
- [11 <./Immagini/aggiuntatraccia.png.jpg>] [12 <./Immagini/analitiche.png.jpg>]
- [13]
+ [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.223 			\end{itemize}
+                       <./Immagini/aggiuntatraccia.png.jpg>] [12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.224 			\newpage
+                  <./Immagini/analitiche.png.jpg>] [13]
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/usecase.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/usecase.pdf, id=64, 597.55246pt x 845.07718pt>
+<Documenti/usecase.pdf, id=425, 597.55246pt x 845.07718pt>
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf>
-Package pdftex.def Info: Documenti/usecase.pdf  used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf  used on input line 233.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -497,7 +946,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/usecase.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf>
-Package pdftex.def Info: Documenti/usecase.pdf  used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf  used on input line 233.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -505,7 +954,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/usecase.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf>
-Package pdftex.def Info: Documenti/usecase.pdf  used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf  used on input line 233.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -515,26 +964,26 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/usecase.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/usecase.pdf, id=68, page=1, 597.55246pt x 845.07718pt>
+<Documenti/usecase.pdf, id=429, page=1, 597.55246pt x 845.07718pt>
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 1>
-Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 1>
-Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 1>
-Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 1>
-Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 1>
-Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [14
 
@@ -542,18 +991,18 @@ Package pdftex.def Info: Documenti/usecase.pdf , page1 used on input line 216.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/usecase.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/usecase.pdf, id=98, page=2, 597.55246pt x 845.07718pt>
+<Documenti/usecase.pdf, id=460, page=2, 597.55246pt x 845.07718pt>
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 2>
-Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 2>
-Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/usecase.pdf Graphic file (type pdf)
 <use Documenti/usecase.pdf, page 2>
-Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 216.
+Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 233.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [15
 
@@ -561,10 +1010,10 @@ Package pdftex.def Info: Documenti/usecase.pdf , page2 used on input line 216.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/Cockburn2.pdf, id=103, 597.55246pt x 845.07718pt>
+<Documenti/Cockburn2.pdf, id=466, 597.55246pt x 845.07718pt>
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf>
-Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 218.
+Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 235.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -572,7 +1021,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf>
-Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 218.
+Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 235.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -580,7 +1029,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf>
-Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 218.
+Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 235.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -588,7 +1037,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf>
-Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 218.
+Package pdftex.def Info: Documenti/Cockburn2.pdf  used on input line 235.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -598,30 +1047,30 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/Cockburn2.pdf, id=108, page=1, 597.55246pt x 845.07718pt>
+<Documenti/Cockburn2.pdf, id=471, page=1, 597.55246pt x 845.07718pt>
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 1>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 235
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 1>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 218
-.
-(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
-File: Documenti/Cockburn2.pdf Graphic file (type pdf)
-<use Documenti/Cockburn2.pdf, page 1>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 1>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 1>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 235
+.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/Cockburn2.pdf Graphic file (type pdf)
+<use Documenti/Cockburn2.pdf, page 1>
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [16
@@ -630,20 +1079,20 @@ Package pdftex.def Info: Documenti/Cockburn2.pdf , page1 used on input line 218
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/Cockburn2.pdf, id=138, page=2, 597.55246pt x 845.07718pt>
+<Documenti/Cockburn2.pdf, id=503, page=2, 597.55246pt x 845.07718pt>
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 2>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 2>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 2>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [17
@@ -652,91 +1101,103 @@ Package pdftex.def Info: Documenti/Cockburn2.pdf , page2 used on input line 218
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/Cockburn2.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/Cockburn2.pdf, id=143, page=3, 597.55246pt x 845.07718pt>
+<Documenti/Cockburn2.pdf, id=509, page=3, 597.55246pt x 845.07718pt>
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 3>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page3 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page3 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 3>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page3 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page3 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/Cockburn2.pdf Graphic file (type pdf)
 <use Documenti/Cockburn2.pdf, page 3>
-Package pdftex.def Info: Documenti/Cockburn2.pdf , page3 used on input line 218
+Package pdftex.def Info: Documenti/Cockburn2.pdf , page3 used on input line 235
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [18
 
  <./Documenti/Cockburn2.pdf>]
-<Immagini/uxdesign.png, id=148, 2007.5pt x 2007.5pt>
+<Immagini/uxdesign.png, id=515, 2007.5pt x 2007.5pt>
 File: Immagini/uxdesign.png Graphic file (type png)
 <use Immagini/uxdesign.png>
-Package pdftex.def Info: Immagini/uxdesign.png  used on input line 233.
+Package pdftex.def Info: Immagini/uxdesign.png  used on input line 250.
 (pdftex.def)             Requested size: 258.00539pt x 257.98222pt.
-<Immagini/palette.jpeg, id=149, 1606.0pt x 2409.0pt>
+<Immagini/palette.jpeg, id=516, 1606.0pt x 2409.0pt>
 File: Immagini/palette.jpeg Graphic file (type jpg)
 <use Immagini/palette.jpeg>
-Package pdftex.def Info: Immagini/palette.jpeg  used on input line 239.
+Package pdftex.def Info: Immagini/palette.jpeg  used on input line 256.
 (pdftex.def)             Requested size: 258.00539pt x 386.99173pt.
  [19 <./Immagini/uxdesign.png>] [20 <./Immagini/palette.jpeg>]
-<Immagini/home_page.png, id=158, 361.35pt x 803.0pt>
+<Immagini/home_page.png, id=528, 361.35pt x 803.0pt>
 File: Immagini/home_page.png Graphic file (type png)
 <use Immagini/home_page.png>
-Package pdftex.def Info: Immagini/home_page.png  used on input line 267.
+Package pdftex.def Info: Immagini/home_page.png  used on input line 285.
 (pdftex.def)             Requested size: 85.9996pt x 191.10657pt.
-<Immagini/search_page.png, id=159, 361.35pt x 803.0pt>
+<Immagini/search_page.png, id=529, 361.35pt x 803.0pt>
 File: Immagini/search_page.png Graphic file (type png)
 <use Immagini/search_page.png>
-Package pdftex.def Info: Immagini/search_page.png  used on input line 274.
+Package pdftex.def Info: Immagini/search_page.png  used on input line 292.
 (pdftex.def)             Requested size: 85.9996pt x 191.10657pt.
  [21]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 286.
+(Font)              <8> on input line 304.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 286.
-<Immagini/foto1.png, id=163, 1983.41pt x 4015.0pt>
+(Font)              <6> on input line 304.
+<Immagini/foto1.png, id=535, 1983.41pt x 4015.0pt>
 File: Immagini/foto1.png Graphic file (type png)
 <use Immagini/foto1.png>
-Package pdftex.def Info: Immagini/foto1.png  used on input line 290.
+Package pdftex.def Info: Immagini/foto1.png  used on input line 308.
 (pdftex.def)             Requested size: 77.39767pt x 156.65176pt.
-<Immagini/foto2.png, id=164, 1983.41pt x 4015.0pt>
+<Immagini/foto2.png, id=536, 1983.41pt x 4015.0pt>
 File: Immagini/foto2.png Graphic file (type png)
 <use Immagini/foto2.png>
-Package pdftex.def Info: Immagini/foto2.png  used on input line 294.
+Package pdftex.def Info: Immagini/foto2.png  used on input line 312.
 (pdftex.def)             Requested size: 77.39767pt x 156.65176pt.
-<Immagini/foto3.png, id=165, 1983.41pt x 4015.0pt>
+<Immagini/foto3.png, id=537, 1983.41pt x 4015.0pt>
 File: Immagini/foto3.png Graphic file (type png)
 <use Immagini/foto3.png>
-Package pdftex.def Info: Immagini/foto3.png  used on input line 298.
+Package pdftex.def Info: Immagini/foto3.png  used on input line 316.
 (pdftex.def)             Requested size: 77.39767pt x 156.65176pt.
-<Immagini/foto4.png, id=166, 1983.41pt x 4015.0pt>
+<Immagini/foto4.png, id=538, 1983.41pt x 4015.0pt>
 File: Immagini/foto4.png Graphic file (type png)
 <use Immagini/foto4.png>
-Package pdftex.def Info: Immagini/foto4.png  used on input line 302.
+Package pdftex.def Info: Immagini/foto4.png  used on input line 320.
 (pdftex.def)             Requested size: 77.39767pt x 156.65176pt.
-<Immagini/foto6.png, id=167, 1983.41pt x 4015.0pt>
+<Immagini/foto6.png, id=539, 1983.41pt x 4015.0pt>
 File: Immagini/foto6.png Graphic file (type png)
 <use Immagini/foto6.png>
-Package pdftex.def Info: Immagini/foto6.png  used on input line 306.
+Package pdftex.def Info: Immagini/foto6.png  used on input line 324.
 (pdftex.def)             Requested size: 77.39767pt x 156.65176pt.
-<Immagini/foto7.png, id=168, 1983.41pt x 4015.0pt>
+<Immagini/foto7.png, id=540, 1983.41pt x 4015.0pt>
 File: Immagini/foto7.png Graphic file (type png)
 <use Immagini/foto7.png>
-Package pdftex.def Info: Immagini/foto7.png  used on input line 310.
+Package pdftex.def Info: Immagini/foto7.png  used on input line 328.
 (pdftex.def)             Requested size: 77.39767pt x 156.65176pt.
- [22 <./Immagini/home_page.png> <./Immagini/search_page.png>] [23 <./Immagini/f
-oto1.png> <./Immagini/foto2.png> <./Immagini/foto3.png> <./Immagini/foto4.png> 
-<./Immagini/foto6.png> <./Immagini/foto7.png>]
+ [22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.331 			\newpage
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.331 			\newpage
+                  <./Immagini/home_page.png> <./Immagini/search_page.png>]
+[23 <./Immagini/foto1.png> <./Immagini/foto2.png> <./Immagini/foto3.png> <./Imm
+agini/foto4.png> <./Immagini/foto6.png> <./Immagini/foto7.png>]
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=186, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=563, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -745,7 +1206,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -754,7 +1215,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -763,7 +1224,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -772,7 +1233,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -781,7 +1242,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -790,7 +1251,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -799,7 +1260,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf>
-Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 317
+Package pdftex.def Info: Documenti/mockupanalitiche.pdf  used on input line 335
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
@@ -810,32 +1271,32 @@ sion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=195, page=1, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=572, page=1, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 1>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page1 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 1>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page1 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [24]
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 1>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page1 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 1>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page1 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 1>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page1 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [25
 
@@ -843,21 +1304,21 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=214, page=2, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=592, page=2, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 2>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page2 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 2>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page2 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 2>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page2 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [26
 
@@ -865,21 +1326,21 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=221, page=3, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=600, page=3, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 3>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page3 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 3>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page3 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 3>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page3 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [27
 
@@ -887,21 +1348,21 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=228, page=4, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=608, page=4, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 4>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page4 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 4>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page4 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 4>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page4 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [28
 
@@ -909,21 +1370,21 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=235, page=5, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=616, page=5, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 5>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page5 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 5>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page5 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 5>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page5 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [29
 
@@ -931,21 +1392,21 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=249, page=6, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=631, page=6, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 6>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page6 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 6>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page6 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 6>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page6 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [30
 
@@ -953,21 +1414,21 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupanalitiche.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupanalitiche.pdf, id=256, page=7, 597.55246pt x 845.07718pt>
+<Documenti/mockupanalitiche.pdf, id=639, page=7, 597.55246pt x 845.07718pt>
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 7>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page7 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 7>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page7 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupanalitiche.pdf Graphic file (type pdf)
 <use Documenti/mockupanalitiche.pdf, page 7>
 Package pdftex.def Info: Documenti/mockupanalitiche.pdf , page7 used on input l
-ine 317.
+ine 335.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [31
 
@@ -975,10 +1436,10 @@ ine 317.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupadd.pdf, id=264, 597.55246pt x 845.07718pt>
+<Documenti/mockupadd.pdf, id=648, 597.55246pt x 845.07718pt>
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf>
-Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 320.
+Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 338.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -986,7 +1447,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf>
-Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 320.
+Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 338.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -994,7 +1455,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf>
-Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 320.
+Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 338.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1002,7 +1463,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf>
-Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 320.
+Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 338.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1010,7 +1471,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf>
-Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 320.
+Package pdftex.def Info: Documenti/mockupadd.pdf  used on input line 338.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1020,31 +1481,31 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupadd.pdf, id=270, page=1, 597.55246pt x 845.07718pt>
+<Documenti/mockupadd.pdf, id=654, page=1, 597.55246pt x 845.07718pt>
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 1>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 338
 .
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 1>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [32]
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 1>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 1>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 1>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [33
@@ -1053,20 +1514,20 @@ Package pdftex.def Info: Documenti/mockupadd.pdf , page1 used on input line 320
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupadd.pdf, id=287, page=2, 597.55246pt x 845.07718pt>
+<Documenti/mockupadd.pdf, id=674, page=2, 597.55246pt x 845.07718pt>
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 2>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 2>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 2>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [34
@@ -1075,20 +1536,20 @@ Package pdftex.def Info: Documenti/mockupadd.pdf , page2 used on input line 320
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupadd.pdf, id=305, page=3, 597.55246pt x 845.07718pt>
+<Documenti/mockupadd.pdf, id=693, page=3, 597.55246pt x 845.07718pt>
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 3>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 3>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 3>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [35
@@ -1097,20 +1558,20 @@ Package pdftex.def Info: Documenti/mockupadd.pdf , page3 used on input line 320
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/mockupadd.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/mockupadd.pdf, id=312, page=4, 597.55246pt x 845.07718pt>
+<Documenti/mockupadd.pdf, id=701, page=4, 597.55246pt x 845.07718pt>
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 4>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 4>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/mockupadd.pdf Graphic file (type pdf)
 <use Documenti/mockupadd.pdf, page 4>
-Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 320
+Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 338
 .
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [36
@@ -1119,10 +1580,10 @@ Package pdftex.def Info: Documenti/mockupadd.pdf , page4 used on input line 320
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/tabelle.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/tabelle.pdf, id=323, 597.55246pt x 845.07718pt>
+<Documenti/tabelle.pdf, id=714, 597.55246pt x 845.07718pt>
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf>
-Package pdftex.def Info: Documenti/tabelle.pdf  used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf  used on input line 358.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1130,7 +1591,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/tabelle.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf>
-Package pdftex.def Info: Documenti/tabelle.pdf  used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf  used on input line 358.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1138,7 +1599,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/tabelle.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf>
-Package pdftex.def Info: Documenti/tabelle.pdf  used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf  used on input line 358.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1148,27 +1609,27 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/tabelle.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/tabelle.pdf, id=327, page=1, 597.55246pt x 845.07718pt>
+<Documenti/tabelle.pdf, id=718, page=1, 597.55246pt x 845.07718pt>
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 1>
-Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 358.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 1>
-Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [38]
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 1>
-Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 1>
-Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 1>
-Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [39
 
@@ -1176,35 +1637,35 @@ Package pdftex.def Info: Documenti/tabelle.pdf , page1 used on input line 340.
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/tabelle.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/tabelle.pdf, id=360, page=2, 597.55246pt x 845.07718pt>
+<Documenti/tabelle.pdf, id=753, page=2, 597.55246pt x 845.07718pt>
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 2>
-Package pdftex.def Info: Documenti/tabelle.pdf , page2 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page2 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 2>
-Package pdftex.def Info: Documenti/tabelle.pdf , page2 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page2 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/tabelle.pdf Graphic file (type pdf)
 <use Documenti/tabelle.pdf, page 2>
-Package pdftex.def Info: Documenti/tabelle.pdf , page2 used on input line 340.
+Package pdftex.def Info: Documenti/tabelle.pdf , page2 used on input line 358.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [40
 
  <./Documenti/tabelle.pdf>]
-<Immagini/dati.png, id=365, 651.93562pt x 378.66469pt>
+<Immagini/dati.png, id=759, 651.93562pt x 378.66469pt>
 File: Immagini/dati.png Graphic file (type png)
 <use Immagini/dati.png>
-Package pdftex.def Info: Immagini/dati.png  used on input line 366.
+Package pdftex.def Info: Immagini/dati.png  used on input line 384.
 (pdftex.def)             Requested size: 387.00153pt x 224.79115pt.
  [41]
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona1.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/UserPersona1.pdf, id=369, 614.295pt x 794.97pt>
+<Documenti/UserPersona1.pdf, id=764, 614.295pt x 794.97pt>
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf>
-Package pdftex.def Info: Documenti/UserPersona1.pdf  used on input line 375.
+Package pdftex.def Info: Documenti/UserPersona1.pdf  used on input line 393.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1212,7 +1673,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona1.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf>
-Package pdftex.def Info: Documenti/UserPersona1.pdf  used on input line 375.
+Package pdftex.def Info: Documenti/UserPersona1.pdf  used on input line 393.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1222,32 +1683,32 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona1.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona1.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/UserPersona1.pdf, id=372, page=1, 614.295pt x 794.97pt>
+<Documenti/UserPersona1.pdf, id=767, page=1, 614.295pt x 794.97pt>
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona1.pdf , page1 used on input line 
-375.
+393.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona1.pdf , page1 used on input line 
-375.
+393.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [42 <./Immagini/dati.png>]
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona1.pdf , page1 used on input line 
-375.
+393.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona1.pdf , page1 used on input line 
-375.
+393.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona1.pdf Graphic file (type pdf)
 <use Documenti/UserPersona1.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona1.pdf , page1 used on input line 
-375.
+393.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [43
 
@@ -1255,10 +1716,10 @@ Package pdftex.def Info: Documenti/UserPersona1.pdf , page1 used on input line
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona2.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/UserPersona2.pdf, id=424, 614.295pt x 794.97pt>
+<Documenti/UserPersona2.pdf, id=821, 614.295pt x 794.97pt>
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf>
-Package pdftex.def Info: Documenti/UserPersona2.pdf  used on input line 376.
+Package pdftex.def Info: Documenti/UserPersona2.pdf  used on input line 394.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1266,7 +1727,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona2.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf>
-Package pdftex.def Info: Documenti/UserPersona2.pdf  used on input line 376.
+Package pdftex.def Info: Documenti/UserPersona2.pdf  used on input line 394.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1276,31 +1737,31 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona2.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona2.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/UserPersona2.pdf, id=427, page=1, 614.295pt x 794.97pt>
+<Documenti/UserPersona2.pdf, id=824, page=1, 614.295pt x 794.97pt>
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona2.pdf , page1 used on input line 
-376.
+394.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona2.pdf , page1 used on input line 
-376.
+394.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona2.pdf , page1 used on input line 
-376.
+394.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona2.pdf , page1 used on input line 
-376.
+394.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona2.pdf Graphic file (type pdf)
 <use Documenti/UserPersona2.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona2.pdf , page1 used on input line 
-376.
+394.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [44
 
@@ -1308,10 +1769,10 @@ Package pdftex.def Info: Documenti/UserPersona2.pdf , page1 used on input line
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona3.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/UserPersona3.pdf, id=480, 614.295pt x 794.97pt>
+<Documenti/UserPersona3.pdf, id=878, 614.295pt x 794.97pt>
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf>
-Package pdftex.def Info: Documenti/UserPersona3.pdf  used on input line 377.
+Package pdftex.def Info: Documenti/UserPersona3.pdf  used on input line 395.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1319,7 +1780,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona3.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf>
-Package pdftex.def Info: Documenti/UserPersona3.pdf  used on input line 377.
+Package pdftex.def Info: Documenti/UserPersona3.pdf  used on input line 395.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1329,31 +1790,31 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona3.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/UserPersona3.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/UserPersona3.pdf, id=483, page=1, 614.295pt x 794.97pt>
+<Documenti/UserPersona3.pdf, id=881, page=1, 614.295pt x 794.97pt>
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona3.pdf , page1 used on input line 
-377.
+395.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona3.pdf , page1 used on input line 
-377.
+395.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona3.pdf , page1 used on input line 
-377.
+395.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona3.pdf , page1 used on input line 
-377.
+395.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: Documenti/UserPersona3.pdf Graphic file (type pdf)
 <use Documenti/UserPersona3.pdf, page 1>
 Package pdftex.def Info: Documenti/UserPersona3.pdf , page1 used on input line 
-377.
+395.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [45
 
@@ -1361,10 +1822,10 @@ Package pdftex.def Info: Documenti/UserPersona3.pdf , page1 used on input line
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/tabelleutenti.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/tabelleutenti.pdf, id=539, 597.55246pt x 845.07718pt>
+<Documenti/tabelleutenti.pdf, id=941, 597.55246pt x 845.07718pt>
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf>
-Package pdftex.def Info: Documenti/tabelleutenti.pdf  used on input line 419.
+Package pdftex.def Info: Documenti/tabelleutenti.pdf  used on input line 437.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1372,7 +1833,7 @@ pdfTeX warning: pdflatex.exe (file ./Documenti/tabelleutenti.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf>
-Package pdftex.def Info: Documenti/tabelleutenti.pdf  used on input line 419.
+Package pdftex.def Info: Documenti/tabelleutenti.pdf  used on input line 437.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 
@@ -1382,170 +1843,610 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Documenti/tabelleutenti.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<Documenti/tabelleutenti.pdf, id=542, page=1, 597.55246pt x 845.07718pt>
+<Documenti/tabelleutenti.pdf, id=944, page=1, 597.55246pt x 845.07718pt>
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf, page 1>
 Package pdftex.def Info: Documenti/tabelleutenti.pdf , page1 used on input line
- 419.
+ 437.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf, page 1>
 Package pdftex.def Info: Documenti/tabelleutenti.pdf , page1 used on input line
- 419.
+ 437.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 [47]
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf, page 1>
 Package pdftex.def Info: Documenti/tabelleutenti.pdf , page1 used on input line
- 419.
+ 437.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf, page 1>
 Package pdftex.def Info: Documenti/tabelleutenti.pdf , page1 used on input line
- 419.
+ 437.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
 File: Documenti/tabelleutenti.pdf Graphic file (type pdf)
 <use Documenti/tabelleutenti.pdf, page 1>
 Package pdftex.def Info: Documenti/tabelleutenti.pdf , page1 used on input line
- 419.
+ 437.
 (pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
  [48
 
  <./Documenti/tabelleutenti.pdf>] [49]
-<Immagini/statechart1.jpg, id=602, 1801.73125pt x 1052.93375pt>
+<Immagini/statechart1.jpg, id=1007, 1801.73125pt x 1052.93375pt>
 File: Immagini/statechart1.jpg Graphic file (type jpg)
 <use Immagini/statechart1.jpg>
-Package pdftex.def Info: Immagini/statechart1.jpg  used on input line 427.
+Package pdftex.def Info: Immagini/statechart1.jpg  used on input line 445.
 (pdftex.def)             Requested size: 387.00153pt x 226.15141pt.
-<Immagini/statechart2.jpg, id=603, 1826.825pt x 1142.2675pt>
+<Immagini/statechart2.jpg, id=1008, 1826.825pt x 1142.2675pt>
 File: Immagini/statechart2.jpg Graphic file (type jpg)
 <use Immagini/statechart2.jpg>
-Package pdftex.def Info: Immagini/statechart2.jpg  used on input line 432.
+Package pdftex.def Info: Immagini/statechart2.jpg  used on input line 450.
 (pdftex.def)             Requested size: 387.00153pt x 241.97481pt.
- [50 <./Immagini/statechart1.jpg>] [51 <./Immagini/statechart2.jpg>]
-<Immagini/classdiagramgenerale.png, id=610, 828.09375pt x 603.75563pt>
+ [50
+pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.453 		\subsection
+                   {Glossario} <./Immagini/statechart1.jpg>] [51
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.465 				\item \textbf
+                       {\textit{\textcolor{dark_purple}{Classe}}} Nella prog...
+ <./Immagini/statechart2.jpg>]
+<Immagini/classdiagramgenerale.png, id=1019, 828.09375pt x 603.75563pt>
 File: Immagini/classdiagramgenerale.png Graphic file (type png)
 <use Immagini/classdiagramgenerale.png>
 Package pdftex.def Info: Immagini/classdiagramgenerale.png  used on input line 
-472.
+490.
 (pdftex.def)             Requested size: 387.00153pt x 282.1622pt.
  [52]
-<Immagini/classdiagramplaylist.png, id=614, 1116.42094pt x 876.27374pt>
+<Immagini/classdiagramplaylist.png, id=1024, 1116.42094pt x 876.27374pt>
 File: Immagini/classdiagramplaylist.png Graphic file (type png)
 <use Immagini/classdiagramplaylist.png>
 Package pdftex.def Info: Immagini/classdiagramplaylist.png  used on input line 
-480.
+498.
 (pdftex.def)             Requested size: 387.00153pt x 303.75882pt.
-<Immagini/classdiagramlogin.png, id=615, 1948.27875pt x 1080.28593pt>
+<Immagini/classdiagramlogin.png, id=1025, 1948.27875pt x 1080.28593pt>
 File: Immagini/classdiagramlogin.png Graphic file (type png)
 <use Immagini/classdiagramlogin.png>
-Package pdftex.def Info: Immagini/classdiagramlogin.png  used on input line 486
+Package pdftex.def Info: Immagini/classdiagramlogin.png  used on input line 504
 .
 (pdftex.def)             Requested size: 387.00153pt x 214.58629pt.
- [53 <./Immagini/classdiagramgenerale.png>]
-<Immagini/classdiagramregistrazione.png, id=620, 3535.2075pt x 1778.14313pt>
+ [53
+pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.506 			\end{figure}
+                      <./Immagini/classdiagramgenerale.png>]
+<Immagini/classdiagramregistrazione.png, id=1032, 3535.2075pt x 1778.14313pt>
 File: Immagini/classdiagramregistrazione.png Graphic file (type png)
 <use Immagini/classdiagramregistrazione.png>
 Package pdftex.def Info: Immagini/classdiagramregistrazione.png  used on input 
-line 492.
+line 510.
 (pdftex.def)             Requested size: 387.00153pt x 194.64671pt.
- [54 <./Immagini/classdiagramplaylist.png>]
-<Immagini/classdiagramprofilo.png, id=625, 4139.71594pt x 1529.715pt>
+ [54
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.512 			\end{figure}
+                      <./Immagini/classdiagramplaylist.png>]
+<Immagini/classdiagramprofilo.png, id=1039, 4139.71594pt x 1529.715pt>
 File: Immagini/classdiagramprofilo.png Graphic file (type png)
 <use Immagini/classdiagramprofilo.png>
-Package pdftex.def Info: Immagini/classdiagramprofilo.png  used on input line 4
-98.
+Package pdftex.def Info: Immagini/classdiagramprofilo.png  used on input line 5
+16.
 (pdftex.def)             Requested size: 387.00153pt x 142.99028pt.
-<Immagini/classdiagramlistening.png, id=626, 3554.78062pt x 780.66656pt>
+<Immagini/classdiagramlistening.png, id=1040, 3554.78062pt x 780.66656pt>
 File: Immagini/classdiagramlistening.png Graphic file (type png)
 <use Immagini/classdiagramlistening.png>
 Package pdftex.def Info: Immagini/classdiagramlistening.png  used on input line
- 504.
+ 522.
 (pdftex.def)             Requested size: 387.00153pt x 84.98018pt.
- [55 <./Immagini/classdiagramlogin.png> <./Immagini/classdiagramregistrazione.p
-ng>]
-<Immagini/classdiagramsearch.png, id=633, 2534.71968pt x 836.3747pt>
+ [55
+pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.524 			\end{figure}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.524 			\end{figure}
+                      <./Immagini/classdiagramlogin.png> <./Immagini/classdiagr
+amregistrazione.png>]
+<Immagini/classdiagramsearch.png, id=1050, 2534.71968pt x 836.3747pt>
 File: Immagini/classdiagramsearch.png Graphic file (type png)
 <use Immagini/classdiagramsearch.png>
-Package pdftex.def Info: Immagini/classdiagramsearch.png  used on input line 51
-0.
+Package pdftex.def Info: Immagini/classdiagramsearch.png  used on input line 52
+8.
 (pdftex.def)             Requested size: 387.00153pt x 127.6969pt.
- [56 <./Immagini/classdiagramprofilo.png> <./Immagini/classdiagramlistening.png
-> <./Immagini/classdiagramsearch.png>]
-<Immagini/sequencediagramaggiungi.png, id=640, 1137.4997pt x 639.89063pt>
+ [56
+pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.533 			\subsubsection
+                       {Sequence Diagram Aggiungi playlist}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.533 			\subsubsection
+                       {Sequence Diagram Aggiungi playlist}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.533 			\subsubsection
+                       {Sequence Diagram Aggiungi playlist} <./Immagini/classdi
+agramprofilo.png> <./Immagini/classdiagramlistening.png> <./Immagini/classdiagr
+amsearch.png>]
+<Immagini/sequencediagramaggiungi.png, id=1061, 1137.4997pt x 639.89063pt>
 File: Immagini/sequencediagramaggiungi.png Graphic file (type png)
 <use Immagini/sequencediagramaggiungi.png>
 Package pdftex.def Info: Immagini/sequencediagramaggiungi.png  used on input li
-ne 518.
+ne 536.
 (pdftex.def)             Requested size: 387.00153pt x 217.70639pt.
-<Immagini/sequencediagramcancella.png, id=641, 1107.38719pt x 883.80188pt>
+<Immagini/sequencediagramcancella.png, id=1062, 1107.38719pt x 883.80188pt>
 File: Immagini/sequencediagramcancella.png Graphic file (type png)
 <use Immagini/sequencediagramcancella.png>
 Package pdftex.def Info: Immagini/sequencediagramcancella.png  used on input li
-ne 524.
+ne 542.
 (pdftex.def)             Requested size: 387.00153pt x 308.8633pt.
- [57 <./Immagini/sequencediagramaggiungi.png>]
-<Immagini/activitydiagramplaylist.png, id=646, 785.93625pt x 516.93124pt>
+ [57
+pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.545 		\subsection
+                   {Activity diagram} <./Immagini/sequencediagramaggiungi.png>]
+<Immagini/activitydiagramplaylist.png, id=1069, 785.93625pt x 516.93124pt>
 File: Immagini/activitydiagramplaylist.png Graphic file (type png)
 <use Immagini/activitydiagramplaylist.png>
 Package pdftex.def Info: Immagini/activitydiagramplaylist.png  used on input li
-ne 532.
+ne 550.
 (pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
-<Immagini/activitydiagramlogin.png, id=647, 785.93625pt x 516.93124pt>
+<Immagini/activitydiagramlogin.png, id=1070, 785.93625pt x 516.93124pt>
 File: Immagini/activitydiagramlogin.png Graphic file (type png)
 <use Immagini/activitydiagramlogin.png>
 Package pdftex.def Info: Immagini/activitydiagramlogin.png  used on input line 
-538.
+556.
 (pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
- [58 <./Immagini/sequencediagramcancella.png>]
-<Immagini/activitydiagramregistration.png, id=652, 785.93625pt x 516.93124pt>
+[58
+pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.558 			\end{figure}
+                      <./Immagini/sequencediagramcancella.png>]
+<Immagini/activitydiagramregistration.png, id=1077, 785.93625pt x 516.93124pt>
 File: Immagini/activitydiagramregistration.png Graphic file (type png)
 <use Immagini/activitydiagramregistration.png>
 Package pdftex.def Info: Immagini/activitydiagramregistration.png  used on inpu
-t line 544.
+t line 562.
 (pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
- [59 <./Immagini/activitydiagramplaylist.png>]
-<Immagini/activitydiagramsearch.png, id=657, 785.93625pt x 516.93124pt>
+ [59
+pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.564 			\end{figure}
+                      <./Immagini/activitydiagramplaylist.png>]
+<Immagini/activitydiagramsearch.png, id=1084, 785.93625pt x 516.93124pt>
 File: Immagini/activitydiagramsearch.png Graphic file (type png)
 <use Immagini/activitydiagramsearch.png>
 Package pdftex.def Info: Immagini/activitydiagramsearch.png  used on input line
- 550.
+ 568.
 (pdftex.def)             Requested size: 387.00153pt x 254.54478pt.
- [60 <./Immagini/activitydiagramlogin.png>]
-<Immagini/activitydiagramsettings.png, id=662, 785.93625pt x 516.93124pt>
+ [60
+pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.570 			\end{figure}
+                      <./Immagini/activitydiagramlogin.png>]
+<Immagini/activitydiagramsettings.png, id=1091, 785.93625pt x 516.93124pt>
 File: Immagini/activitydiagramsettings.png Graphic file (type png)
 <use Immagini/activitydiagramsettings.png>
 Package pdftex.def Info: Immagini/activitydiagramsettings.png  used on input li
-ne 556.
+ne 574.
 (pdftex.def)             Requested size: 430.00462pt x 282.83017pt.
- [61 <./Immagini/activitydiagramregistration.png>] [62 <./Immagini/activitydiag
-ramsearch.png>] [63 <./Immagini/activitydiagramsettings.png>] [64] (./documenta
-zione.aux)
+ [61
+pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.576 			\end{figure}
+                      <./Immagini/activitydiagramregistration.png>] [62
+pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.577 			\newpage
+                  <./Immagini/activitydiagramsearch.png>] [63
+pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.577 			\newpage
+                  <./Immagini/activitydiagramsettings.png>]
+<Immagini/model.png, id=1112, 1931.215pt x 1103.12125pt>
+File: Immagini/model.png Graphic file (type png)
+<use Immagini/model.png>
+Package pdftex.def Info: Immagini/model.png  used on input line 588.
+(pdftex.def)             Requested size: 387.00153pt x 221.05798pt.
+<Immagini/springboot.png, id=1114, 1059.20718pt x 502.87875pt>
+File: Immagini/springboot.png Graphic file (type png)
+<use Immagini/springboot.png>
+Package pdftex.def Info: Immagini/springboot.png  used on input line 604.
+(pdftex.def)             Requested size: 387.00153pt x 183.73721pt.
+ [64
+pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.606 		\end{figure}
+                     <./Immagini/model.png>] [65
+pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.613 		\end{itemize}
+                      <./Immagini/springboot.png>]
+<Immagini/mvc.png, id=1129, 481.8pt x 361.35pt>
+File: Immagini/mvc.png Graphic file (type png)
+<use Immagini/mvc.png>
+Package pdftex.def Info: Immagini/mvc.png  used on input line 621.
+(pdftex.def)             Requested size: 387.00153pt x 290.26033pt.
+ [66
+pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.630 			\item \textbf
+                      {Service:} layer soggetto a dependency injection molto...
+ <./Immagini/mvc.png>]
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/restapi.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Documenti/restapi.pdf, id=1136, 597.55246pt x 845.07718pt>
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf>
+Package pdftex.def Info: Documenti/restapi.pdf  used on input line 642.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/restapi.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf>
+Package pdftex.def Info: Documenti/restapi.pdf  used on input line 642.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/restapi.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/restapi.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Documenti/restapi.pdf, id=1139, page=1, 597.55246pt x 845.07718pt>
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf, page 1>
+Package pdftex.def Info: Documenti/restapi.pdf , page1 used on input line 642.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf, page 1>
+Package pdftex.def Info: Documenti/restapi.pdf , page1 used on input line 642.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+[67]
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf, page 1>
+Package pdftex.def Info: Documenti/restapi.pdf , page1 used on input line 642.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf, page 1>
+Package pdftex.def Info: Documenti/restapi.pdf , page1 used on input line 642.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/restapi.pdf Graphic file (type pdf)
+<use Documenti/restapi.pdf, page 1>
+Package pdftex.def Info: Documenti/restapi.pdf , page1 used on input line 642.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [68
+
+ <./Documenti/restapi.pdf>]
+<Immagini/mvp.png, id=1194, 780.9175pt x 684.5575pt>
+File: Immagini/mvp.png Graphic file (type png)
+<use Immagini/mvp.png>
+Package pdftex.def Info: Immagini/mvp.png  used on input line 653.
+(pdftex.def)             Requested size: 387.00153pt x 339.2487pt.
+ [69] [70
+pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.656 		\newpage
+                 <./Immagini/mvp.png (PNG copy)>]
+<Immagini/retrofit.png, id=1204, 1243.64626pt x 499.8675pt>
+File: Immagini/retrofit.png Graphic file (type png)
+<use Immagini/retrofit.png>
+Package pdftex.def Info: Immagini/retrofit.png  used on input line 669.
+(pdftex.def)             Requested size: 387.00153pt x 155.55225pt.
+ [71] [72
+pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.687 		\end{itemize}
+                      <./Immagini/retrofit.png>]
+<Immagini/firebase.png, id=1215, 1927.2pt x 1084.05pt>
+File: Immagini/firebase.png Graphic file (type png)
+<use Immagini/firebase.png>
+Package pdftex.def Info: Immagini/firebase.png  used on input line 690.
+(pdftex.def)             Requested size: 387.00153pt x 217.68285pt.
+ [73
+pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.693 		\newpage
+                 <./Immagini/firebase.png>] [74]
+<Immagini/classdiagramdesignplaylist.png, id=1227, 1081.03876pt x 765.6103pt>
+File: Immagini/classdiagramdesignplaylist.png Graphic file (type png)
+<use Immagini/classdiagramdesignplaylist.png>
+Package pdftex.def Info: Immagini/classdiagramdesignplaylist.png  used on input
+ line 701.
+(pdftex.def)             Requested size: 430.00462pt x 304.53308pt.
+<Immagini/classdiagramdesignuser.png, id=1228, 965.85844pt x 712.91344pt>
+File: Immagini/classdiagramdesignuser.png Graphic file (type png)
+<use Immagini/classdiagramdesignuser.png>
+Package pdftex.def Info: Immagini/classdiagramdesignuser.png  used on input lin
+e 706.
+(pdftex.def)             Requested size: 430.00462pt x 317.39233pt.
+ [75 <./Immagini/classdiagramdesignplaylist.png>]
+<Immagini/classdiagramlibrary.png, id=1234, 1973.12157pt x 1295.59032pt>
+File: Immagini/classdiagramlibrary.png Graphic file (type png)
+<use Immagini/classdiagramlibrary.png>
+Package pdftex.def Info: Immagini/classdiagramlibrary.png  used on input line 7
+11.
+(pdftex.def)             Requested size: 430.00462pt x 282.34215pt.
+ [76 <./Immagini/classdiagramdesignuser.png>]
+<Immagini/classdiagramdesignlistening.png, id=1240, 1614.03pt x 832.61063pt>
+File: Immagini/classdiagramdesignlistening.png Graphic file (type png)
+<use Immagini/classdiagramdesignlistening.png>
+Package pdftex.def Info: Immagini/classdiagramdesignlistening.png  used on inpu
+t line 716.
+(pdftex.def)             Requested size: 430.00462pt x 221.8223pt.
+ [77 <./Immagini/classdiagramlibrary.png>] [78 <./Immagini/classdiagramdesignli
+stening.png>]
+<Immagini/sequence1.png, id=1252, 833.1125pt x 1631.09375pt>
+File: Immagini/sequence1.png Graphic file (type png)
+<use Immagini/sequence1.png>
+Package pdftex.def Info: Immagini/sequence1.png  used on input line 725.
+(pdftex.def)             Requested size: 258.00539pt x 505.13608pt.
+<Immagini/sequence2.png, id=1253, 1816.7875pt x 1428.33624pt>
+File: Immagini/sequence2.png Graphic file (type png)
+<use Immagini/sequence2.png>
+Package pdftex.def Info: Immagini/sequence2.png  used on input line 730.
+(pdftex.def)             Requested size: 344.005pt x 270.44954pt.
+
+[79] [80]
+Overfull \vbox (2.00421pt too high) has occurred while \output is active []
+
+
+[81
+pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.732 		\end{figure}
+                     <./Immagini/sequence1.png (PNG copy)>]
+<Immagini/sequence3.png, id=1268, 1259.70625pt x 834.11626pt>
+File: Immagini/sequence3.png Graphic file (type png)
+<use Immagini/sequence3.png>
+Package pdftex.def Info: Immagini/sequence3.png  used on input line 735.
+(pdftex.def)             Requested size: 344.005pt x 227.78537pt.
+ [82
+pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.738 		\subsubsection
+                      {Ultimo Sequence} <./Immagini/sequence2.png (PNG copy)>]
+[83
+pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.739 		\newpage
+                 <./Immagini/sequence3.png (PNG copy)>]
+<Immagini/gerarchialogin.png, id=1279, 438.13687pt x 273.27094pt>
+File: Immagini/gerarchialogin.png Graphic file (type png)
+<use Immagini/gerarchialogin.png>
+Package pdftex.def Info: Immagini/gerarchialogin.png  used on input line 746.
+(pdftex.def)             Requested size: 387.00153pt x 241.37982pt.
+<Immagini/gerarchiahome1.png, id=1280, 450.18187pt x 246.9225pt>
+File: Immagini/gerarchiahome1.png Graphic file (type png)
+<use Immagini/gerarchiahome1.png>
+Package pdftex.def Info: Immagini/gerarchiahome1.png  used on input line 751.
+(pdftex.def)             Requested size: 387.00153pt x 212.2776pt.
+<Immagini/gerarchiahome2.png, id=1281, 424.58624pt x 332.74312pt>
+File: Immagini/gerarchiahome2.png Graphic file (type png)
+<use Immagini/gerarchiahome2.png>
+Package pdftex.def Info: Immagini/gerarchiahome2.png  used on input line 756.
+(pdftex.def)             Requested size: 387.00153pt x 303.30443pt.
+ [84 <./Immagini/gerarchialogin.PNG>] [85
+pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.759 		\newpage
+                 <./Immagini/gerarchiahome1.PNG>] [86
+pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.759 		\newpage
+                 <./Immagini/gerarchiahome2.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 761--765
+
+ []
+
+(c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 782.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
+82.
+
+(c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+) [87] [88] [89] [90]
+<Immagini/tabella.png, id=1396, 496.85625pt x 95.6072pt>
+File: Immagini/tabella.png Graphic file (type png)
+<use Immagini/tabella.png>
+Package pdftex.def Info: Immagini/tabella.png  used on input line 920.
+(pdftex.def)             Requested size: 387.00153pt x 74.46971pt.
+
+[91 <./Immagini/tabella.PNG>]
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/risposte.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<Documenti/risposte.pdf, id=1404, 597.55246pt x 845.07718pt>
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf>
+Package pdftex.def Info: Documenti/risposte.pdf  used on input line 937.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/risposte.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf>
+Package pdftex.def Info: Documenti/risposte.pdf  used on input line 937.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/risposte.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf>
+Package pdftex.def Info: Documenti/risposte.pdf  used on input line 937.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/risposte.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/risposte.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<Documenti/risposte.pdf, id=1408, page=1, 597.55246pt x 845.07718pt>
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 1>
+Package pdftex.def Info: Documenti/risposte.pdf , page1 used on input line 937.
+
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 1>
+Package pdftex.def Info: Documenti/risposte.pdf , page1 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+[92]
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 1>
+Package pdftex.def Info: Documenti/risposte.pdf , page1 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 1>
+Package pdftex.def Info: Documenti/risposte.pdf , page1 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 1>
+Package pdftex.def Info: Documenti/risposte.pdf , page1 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [93
+
+ <./Documenti/risposte.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documenti/risposte.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<Documenti/risposte.pdf, id=1433, page=2, 597.55246pt x 845.07718pt>
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 2>
+Package pdftex.def Info: Documenti/risposte.pdf , page2 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 2>
+Package pdftex.def Info: Documenti/risposte.pdf , page2 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: Documenti/risposte.pdf Graphic file (type pdf)
+<use Documenti/risposte.pdf, page 2>
+Package pdftex.def Info: Documenti/risposte.pdf , page2 used on input line 937.
+
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+[94
+
+ <./Documenti/risposte.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 938--940
+
+ []
+
+<Immagini/31708.jpg, id=1439, 525.46312pt x 490.33188pt>
+File: Immagini/31708.jpg Graphic file (type jpg)
+<use Immagini/31708.jpg>
+Package pdftex.def Info: Immagini/31708.jpg  used on input line 968.
+(pdftex.def)             Requested size: 344.005pt x 321.01634pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--969
+
+ []
+
+[95] [96 <./Immagini/31708.jpg>] [97] (./documentazione.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
+Package rerunfilecheck Info: File `documentazione.out' has not changed.
+(rerunfilecheck)             Checksum: 532B5B9955D71FEEEDCD254FB9A33B23;12299.
  ) 
 Here is how much of TeX's memory you used:
- 6482 strings out of 474141
- 112510 string characters out of 5748625
- 1940998 words of memory out of 5000000
- 28726 multiletter control sequences out of 15000+600000
- 568534 words of font info for 54 fonts, out of 8000000 for 9000
+ 25379 strings out of 474141
+ 468251 string characters out of 5748625
+ 2164998 words of memory out of 5000000
+ 47027 multiletter control sequences out of 15000+600000
+ 571064 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,17n,79p,863b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,17n,107p,863b,2177s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><c:/texl
 ive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2023/t
 exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/
 fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/cm-super/sfrm0600.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
-m-super/sfrm0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
-rm0800.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
-><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on documentazione.pdf (64 pages, 17170740 bytes).
+1/public/cm-super/sfrm0500.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/c
+m-super/sfrm0600.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sf
+rm0700.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
+><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb><c:/texlive/2023/te
+xmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2023/texmf-dist/f
+onts/type1/public/cm-super/sftt0900.pfb>
+Output written on documentazione.pdf (97 pages, 21497158 bytes).
 PDF statistics:
- 725 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 0 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1573 PDF objects out of 1728 (max. 8388607)
+ 1169 compressed objects within 12 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 1174 words of extra memory for PDF output out of 10000 (max. 10000000)
 

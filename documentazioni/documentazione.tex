@@ -6,6 +6,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[italian]{babel}
 \usepackage{multicol}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{hyperref} % Per l'aggiunta di link cliccabili
 \usepackage{makecell}
 \usepackage{pdfpages}
 \usepackage{geometry}
@@ -20,6 +23,20 @@
 \renewcommand\theadfont{\bfseries}
 \renewcommand\theadgape{\Gape[4pt]}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\lstdefinestyle{JavaStyle}{
+	language=Java,
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue},
+	commentstyle=\color{purple!40!black},
+	stringstyle=\color{violet},
+	breaklines=true,
+	showstringspaces=false,
+	tabsize=4,
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	frame=single
+}
 
 \makeindex
 \definecolor{dark_purple}{RGB}{48, 25, 52}
@@ -256,8 +273,9 @@
 			\item Le forme tondeggianti possono creare un senso di continuità e flusso visivo. La transizione tra gli elementi è più fluida, contribuendo a un'interfaccia più armoniosa e integrata
 			\item Le forme tondeggianti possono trasmettere una sensazione di sicurezza e protezione, in quanto mancano degli angoli appuntiti che potrebbero sembrare minacciosi. \\Questo può essere particolarmente importante per utenti con esigenze di accessibilità, rendendo l'app più inclusiva
 		\end{itemize}
-		Fin dal prototipo iniziale, i valori citati precedentemente sono stati sempre rispettati.
-		Bisogna specificare, però, che in fase di sviluppo molte scelte stilistiche sono state modificate per garantire una funzionalità maggiore dell'applicativo. 
+		Fin dal prototipo iniziale, i valori citati precedentemente sono stati sempre rispettati.\\
+		Bisogna specificare, però, che in fase di sviluppo molte scelte stilistiche sono state modificate per garantire una funzionalità maggiore dell'applicativo.\\
+		Per una visione completa dei mockup dell'applicazione, si consiglia di cliccare il seguente link: \href{https://www.figma.com/design/Ydobs9LpJIG0QtayPxFLHQ/SoundLab?node-id=0-1&t=WTyvVfdrgmC9HQYu-1}{Figma - SoundLab}
 		\hspace{0.1\textwidth}
 		\begin{center}
 			\begin{figure}[htbp]
@@ -556,26 +574,409 @@
 				\includegraphics[width=1.0\textwidth]{Immagini/activitydiagramsettings}
 				\caption{Activity Diagram azioni settings}
 			\end{figure}
+			\newpage
 			
 	\section{Design di sistema}
-		\subsubsection{Analisi architetturale}
+		\subsection{Analisi architetturale}
+		L'architettura usata per questo progetto comprende un insieme di soluzioni e strategie di famosi \textbf{design pattern}.
+		\\
+		In particolare, in questa sezione del documento, verrà analizzata l'\textbf{architettura client-server} utilizzata.
+		\\
+		Con la parola \textit{client}, indichiamo i dispositivi android mobile mentre con la parola \textit{server}, indichiamo il backend utilizzato per gestire i servizi offerti ai clienti dal nostro applicativo.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/model}
+			\caption{Client-server model}
+		\end{figure}
 		\subsubsection{Descrizione architettura cloud}
+		SoundLab offre un back-end con le seguenti caratteristiche:
+		\begin{itemize}
+			\item \textbf{\textit{\textcolor{dark_purple}{Elasticità}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Scalabilità}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Economicità}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Astrazione}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Sicurezza}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Virtualizzazione}}}
+		\end{itemize}
+		Tali servizi sono stati offerti grazie all'utilizzo dei \textbf{servizi on demand in Cloud di AWS}\footnote{\textit{Amazon Web Services, Inc.} è una sussidiaria di Amazon, che fornisce servizi di cloud computing su un'omonima piattaforma on demand}, applicando la seguente architettura:
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/springboot}
+			\caption{Architettura di sistema}
+		\end{figure}
+		Le tecnologie adoperate sono:
+		\begin{itemize}
+			\item \textbf{\textit{\textcolor{dark_purple}{Springboot}}} che risulta essere un tassello importantissimo per il backend. Questo famosissimo framework di Java offre l'opportunità di creare un proprio insieme personalizzato di \textbf{route di REST API} personalizzate. Inoltre, SpringBoot è il diretto connesso al server Database tramite operazioni \textbf{CRUD}.
+			\item \textbf{\textit{\textcolor{dark_purple}{Amazon AWS-RDS}}} che è un sistema che semplifica l’impostazione, il funzionamento e il dimensionamento di database relazionali nel cloud.Questo servizio fornisce una capacità ridimensionabile efficiente nei costi,automatizzando al tempo stesso le attività di amministrazione più dispendiose in termini di tempo.
+			\item \textbf{\textit{\textcolor{dark_purple}{Amazon AWS-S3}}} che è un servizio di archiviazione di oggetti che offre scalabilità, disponibilità dei dati,sicurezza e prestazioni all’avanguardia nel settore. I clienti di tutte le entità e settori possono archiviare e proteggere qualsiasi quantità di dati per qualsiasi caso d’uso. Con classi di archiviazione convenienti e caratteristiche di gestione di facile utilizzo, è possibile ottimizzare i costi, organizzare i dati e configurare controlli di accesso ottimizzati per soddisfare specifici requisiti aziendali,organizzativi e di conformità.
+			\item \textbf{\textit{\textcolor{dark_purple}{Amazon AWS-Amplify}}} che consiste in un set di strumenti e caratteristiche appositamente progettati per consentire agli sviluppatori front-end di applicazioni Web e per dispositivi mobili di costruire rapidamente e facilmente applicazioni full-stack in AWS,con la flessibilità di sfruttare i vari servizi AWS man mano che i casi d’uso si evolvono. Con Amplify, è possibile configurare un back-end per app Web oper dispositivi mobili, connettere l'app in pochi minuti, costruire visivamente un’interfaccia utente front-end Web e gestire facilmente i contenuti dell’app al di fuori della console AWS
+		\end{itemize}
+		
 		\subsubsection{Il server}
-		\subsubsection{REST API}
+		Il server è scritto interamente in \textbf{Springboot}.
+		Si tratta di un framework open source di livello aziendale molto diffuso per la creazione di applicazioni autonome, adatte ad ambienti di produzione che vengono eseguite su \textbf{JVM (Java Virtual Machine)}.\\
+		Per una buona gestione e per facilitare tante qualità quali il riutilizzo di codice, dependency injection e altro abbiamo optato per un famoso \textbf{DesignPattern}, ovvero \textbf{MVC}.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/mvc}
+			\caption{Design Pattern MVC}
+		\end{figure}
+		Il design pattern segue delle linee guida per SpringBoot, infatti sono stati individuati i seguenti componenti:
+		\begin{itemize}
+			\item \textbf{Components:} componenti del backend quali contorller, service, repository (tutte sottoclassi)
+			\item \textbf{Model:} oggetti che rappresentato una figura concreta che mappata viene per essere entità di un database
+			\item \textbf{Model DTO:} \textit{Data Transfer Object} sono il mezzo di comunicazione entrante/uscente del server
+			\item \textbf{Controller:} gestiscono i metodi da HTTP (GET, POST, PUT, DELETE) e relative rotte e sotto-rotte
+			\item \textbf{Service:} layer soggetto a dependency injection molto importante e intermediario tra repository e controller
+			\item \textbf{Repository:} diretta comunicazione con la logica di database sottostante, attraverso JPA e altri moduli si interfacciano con interfacce per fare
+			operazioni CRUD
+		\end{itemize}
+	Nel prossimo paragrafo elencheremo le \textbf{REST API} create appositamente per offrire i servizi tramite \textbf{Springboot} per i clienti di SoundLab.
+		\subsubsection{Rest Api}
+		Il protocollo di comunicazione è quello \textbf{HTTP}.
+		\begin{itemize}
+			\item \textbf{POST:} Il metodo POST viene utilizzato per inviare dati al server per creare o aggiornare risorse. Quando si effettua una richiesta POST, i dati vengono solitamente inviati nel corpo della richiesta. Questo metodo è comunemente utilizzato per inviare i dati di un modulo HTML ad un server o per creare nuove risorse tramite un'API.
+			\item \textbf{GET:} Il metodo GET viene utilizzato per richiedere dati dal server. Quando si effettua una richiesta GET, i parametri e i dati della richiesta sono inclusi nell'URL. Questo metodo è comunemente utilizzato per ottenere risorse esistenti dal server o per recuperare dati da un'API.
+			\item \textbf{DELETE:} Il metodo DELETE viene utilizzato per eliminare una risorsa specifica dal server. Quando si effettua una richiesta DELETE, l'identificatore della risorsa da eliminare è solitamente incluso nell'URL o nel corpo della richiesta. Questo metodo è comunemente utilizzato per cancellare risorse esistenti tramite un'API.
+		\end{itemize}
+		\includepdf[pages={1}]{Documenti/restapi.pdf}
 		\subsubsection{Il client}
-		\subsubsection{Supporti (RetroFit)}
-		\subsubsection{Class Diagram di Design}
-			\subsubsection{Diagrammi del punto USE CASE}
-	\section{Codice sorgente sviluppato}
+		Il client di SoundLab è stato sviluppato su piattaforma \textbf{Android}. I vantaggi di lavorare su android sono molteplici uno tra quali l’\textbf{Open Source}, infatti grazie ad android si ha avuto la possibilità di avere accesso a numerose librerie utili al fine di sviluppare al meglio l'applicativo.
+		Per il progetto abbiamo usato il design pattern \textbf{MVP}:
+		\begin{itemize}
+			\item \textbf{Model:} rappresenta il modello dei dati di interesse per l’applicazione.Tale livello si occupa di incapsulare lo stato dell’applicazione, gestisce l’accesso alla sorgente dei dati, fornisce funzionalità per l’aggiornamento dello stato e l’accesso ai dati. Nel client android sviluppato, è compito di questo livello gestire la comunicazione diretta con le APILambda e quindi si occupa della formattazione delle richieste e delladecodifica delle risposte. Infine, il MODEL notifica al PRESENTER il cambiamento di stato
+			\item \textbf{View:} questo livello rappresenta l’interfaccia utente, permettendo l’interazione con esso e fornendo una rappresentazione grafica ed interattiva del model. La responsabilità di questo livello è la presentazione dei dati e dello stato dell’applicazione. Inoltre, esso riceve notifiche dal PRESENTER e aggiorna la visualizzazione
+			\item \textbf{Presenter:} tale livello definisce la logica di controllo e le funzionalità applicative. Quindi, è compito di questo livello gestire gli eventi ed i comandi generati dall’utente: in base a questi ultimi, esso opera sul model. Infine, tale livello si occupa di selezionare/aggiornare il livello VIEW in base ai dati recuperati.
+		\end{itemize}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/mvp}
+			\caption{Design Pattern MVP}
+		\end{figure}
+		\newpage
+		\subsubsection{Supporti}
+		\textbf{Retrofit} è una libreria per Android che semplifica l'utilizzo delle API RESTful all'interno di un progetto. Fornisce un modo semplice e intuitivo per definire le richieste HTTP, gestire le risposte del server e convertire automaticamente i dati JSON in oggetti Java.
+		\begin{itemize}
+			\item \textbf{Interfacce API:} In Retrofit, si definiscono le API RESTful come interfacce Java. Ogni metodo dell'interfaccia rappresenta un'operazione su una risorsa del server e specifica il tipo di richiesta HTTP (GET, POST, DELETE, ecc.), l'URL relativo e i parametri richiesti. Si possono anche specificare gli header di autenticazione o il corpo della richiesta utilizzando annotazioni specifiche di Retrofit.
+			\item \textbf{Client Retrofit:} Si può creare un'istanza di Retrofit utilizzando il Retrofit.Builder e configurarlo con l'URL di base per le API. Il client Retrofit si occupa di gestire le richieste e le risposte HTTP, nonché della conversione automatica dei dati JSON in oggetti Java utilizzando un convertitore (come Gson o Jackson).
+			\item \textbf{Convertitori:} Retrofit supporta diversi convertitori per la conversione automatica dei dati tra il formato JSON e gli oggetti Java. Si può scegliere il convertitore preferito e configurarlo con Retrofit. Gson è il convertitore predefinito di Retrofit.
+			\item \textbf{Chiamate asincrone:} Retrofit esegue richieste HTTP in modo asincrono per non bloccare il thread principale dell'applicazione.
+			\item \textbf{Esecuzione delle richieste:} Per eseguire effettivamente una richiesta HTTP, si chiama il metodo corrispondente dell'interfaccia API tramite l'istanza Retrofit creata. Retrofit si occuperà di creare e inviare la richiesta HTTP al server, gestire la risposta e restituirla al tuo codice.
+			\item \textbf{Gestione degli errori:} Retrofit offre un modo semplice per gestire gli errori nelle chiamate alle API. Si possono definire classi di risposta personalizzate che rappresentano le risposte previste dal server e gestire anche gli errori di rete o di parsing dei dati. Si possono utilizzare annotazioni come \textit{@HTTP, @Headers e @Path} per gestire situazioni specifiche come richieste personalizzate o parametri dinamici nell'URL.
+		\end{itemize}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/retrofit}
+			\caption{Android Retrofit}
+		\end{figure}
+		\textbf{Firebase} è una piattaforma di sviluppo di applicazioni mobile e web fornita da Google.\\
+		Offre una suite completa di strumenti e servizi progettati per aiutare gli sviluppatori a creare app di alta qualità, espanderne l'utenza e aumentare i ricavi.\\
+		La piattaforma è particolarmente apprezzata per la sua capacità di semplificare molte delle operazioni necessarie per costruire, gestire e scalare le applicazioni.\\
+		Le principali caratteristiche sono:
+		\begin{itemize}
+			\item \textbf{Realtime Database:} Un database NoSQL che consente di archiviare e sincronizzare i dati tra i client in tempo reale.
+			\item Cloud Firestore: Un database flessibile, scalabile e di nuova generazione per lo sviluppo mobile, web e server.
+			\item \textbf{Authentication:} Soluzioni di autenticazione per gli utenti tramite email, password e provider di terze parti come Google, Facebook e Twitter.
+			\item \textbf{Hosting:} Hosting web statico veloce e sicuro per le tue app, con supporto per contenuti globalmente distribuiti tramite CDN.
+			\item \textbf{Cloud Functions:} Funzionalità serverless che consentono di eseguire codice backend in risposta a eventi attivati da Firebase o richieste HTTP.
+			\item \textbf{Cloud Messaging}: Un servizio che permette l'invio di notifiche push e messaggi agli utenti su diverse piattaforme.
+			\item \textbf{Analytics:} Strumenti di analisi avanzati che forniscono una comprensione approfondita del comportamento degli utenti e delle prestazioni dell'app.
+			\item \textbf{Crashlytics:} Un servizio di reporting in tempo reale per crash e bug, che aiuta a migliorare la stabilità dell'app.
+			\item \textbf{Remote Config:} Permette di modificare dinamicamente l'aspetto e il comportamento dell'app senza rilasciare una nuova versione.
+			\item \textbf{Performance Monitoring:} Monitoraggio delle prestazioni delle app in tempo reale, aiutando a identificare e risolvere i problemi di latenza e di consumo delle risorse.
+		\end{itemize}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/firebase}
+			\caption{Firebase}
+		\end{figure}
+		\newpage
+		\subsection{Class Diagram di Design}
+		Per questioni di leggibilità e comprensione dei diagrammi, si è scelto di dividere il class diagram, creandone uno per ciascun package dell’applicativo.\\
+		\textit{NOTA: Trattandosi di diagrammi molto ricchi, si consiglia di zoomare per poter leggere bene il contenuto in quanto potrebbe risultare poco visibile}.
+		\newpage
+		\subsubsection{Classi Diagram Playlist}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1.0\textwidth]{Immagini/classdiagramdesignplaylist}
+		\end{figure}
+		\subsubsection{Class Diagram User}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1.0\textwidth]{Immagini/classdiagramdesignuser}
+		\end{figure}
+		\subsubsection{Class Diagram Library}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1.0\textwidth]{Immagini/classdiagramlibrary}
+		\end{figure}
+		\subsubsection{Class Diagram Listening}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1.0\textwidth]{Immagini/classdiagramdesignlistening}
+		\end{figure}
+		\newpage
+		\subsection{Sequence Diagram di design}
+		Per questioni di leggibilità e comprensione dei diagrammi, si è scelto di dividere i sequence diagram.\\
+		\textit{NOTA: Trattandosi di diagrammi molto ricchi, laddove sia necessario, si consiglia di zoomare per poter leggere bene il contenuto in quanto potrebbe risultare poco visibile}.
+		\subsubsection{Sequence diagram Playlist}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.6\textwidth]{Immagini/sequence1}
+			\caption{Parte Uno}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{Immagini/sequence2}
+			\caption{Parte Due}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{Immagini/sequence3}
+			\caption{Parte Tre}
+		\end{figure}
+		\subsubsection{Ultimo Sequence}
+		\newpage
+		\subsection{Gerarchie funzionali}
+		La gerarchia funzionale è un metodo per organizzare e rappresentare le funzioni di un sistema in modo gerarchico. Questo approccio permette di visualizzare le relazioni tra le diverse funzioni e sottosistemi, evidenziando come si suddividono i compiti e le responsabilità.\\
+		In questo paragrafo vengono rappresentate le gerarchie funzionali dell’applicativo; per semplicità sono state suddivise in due macro categorie che sono state gestite come insiemi a parte ma comunicanti in qualche modo tra di loro.
+		\subsubsection{Gerarchie funzionali Login}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/gerarchialogin}
+		\end{figure}
+		\subsubsection{Gerarchie funzionali Homepage}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/gerarchiahome1}
+			\caption{Gerarchia HomePage prima parte}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/gerarchiahome2}
+			\caption{Gerarchia HomePage seconda parte}
+		\end{figure}
+		\newpage
 	\section{Codice xUnit}
-		\subsubsection{Metodo 1}
-		\subsubsection{Metodo 2}
-		\subsubsection{Metodo 3}
-		\subsubsection{Metodo 4}
+	Nel contesto dello sviluppo software, l'importanza dei test unitari è fondamentale per garantire la qualità e la robustezza delle applicazioni.\\
+	Nel seguente capitolo, verranno esplorati due approcci principali per il testing del software: \textbf{Black Box Testing} e \textbf{White Box Testing}. 
+	Risulta essenziale comprendere il concetto di \textbf{test unitario} e il ruolo cruciale che svolgono nel processo di sviluppo.\\
+	Verrà preso in considerazione l'esempio del framework JUnit, un pilastro nel mondo del testing per il linguaggio di programmazione Java. Successivamente, verranno analizzate due strategie di testing sopra citate, evidenziando le differenze chiave tra di esse e illustrando l'implementazione pratica attraverso codici di test.\\
+	
+	Si definisce, come primo passo, la differenza tra le due metodologie di testing:
+	\begin{itemize}
+		\item \textbf{Black box:}
+		\begin{itemize}
+			\item In questo approccio, il tester tratta il sistema come una "scatola nera", senza conoscere i dettagli interni del suo funzionamento. Il tester si concentra esclusivamente sui requisiti funzionali del sistema e sulle sue interfacce esterne.
+			\item I test black box sono progettati per verificare se il sistema produce gli output desiderati dati certi input, senza preoccuparsi di come il sistema raggiunge tali output.
+			\item Questo tipo di testing è utile per identificare bug, discrepanze tra requisiti e implementazione, e comportamenti imprevisti.
+		\end{itemize}
+		\item \textbf{White box:}
+		\begin{itemize}
+			\item Questo approccio si concentra invece sulle strutture interne del software, osservando il codice sorgente e i dettagli della sua implementazione.
+			\item I test white box vengono progettati per esplorare il flusso di controllo del programma, il flusso di dati, e per verificare la correttezza delle strutture di dati e algoritmi.
+			\item È particolarmente utile per garantire una buona copertura del codice, identificare bug logici e ottimizzare le prestazioni del software.
+		\end{itemize}
+	\end{itemize}
+		\subsection{CODICE DI PROVA}
+		\begin{lstlisting}[style=JavaStyle, caption={Il tuo codice Java}, label={lst:java_code}]
+			package com.soundlab;
+			
+			import com.soundlab.domain.Listening;
+			import com.soundlab.domain.Song;
+			import com.soundlab.domain.User;
+			import com.soundlab.domain.properties.SongType;
+			import com.soundlab.dto.records.AddRemoveListeningDTO;
+			import com.soundlab.service.ListeningService;
+			import com.soundlab.utils.response.Payload;
+			import org.junit.jupiter.api.Test;
+			import org.springframework.beans.factory.annotation.Autowired;
+			import org.springframework.boot.test.context.SpringBootTest;
+			import org.springframework.boot.test.mock.mockito.MockBean;
+			import org.springframework.http.HttpStatus;
+			import java.util.Optional;
+			
+			import org.springframework.security.crypto.password.PasswordEncoder;
+			import org.springframework.test.context.ContextConfiguration;
+			import com.soundlab.repository.*;
+			
+			import static org.mockito.Mockito.*;
+			import static org.junit.jupiter.api.Assertions.*;
+			
+			@SpringBootTest
+			@ContextConfiguration(classes = SoundlabApplication.class)
+			class SoundlabApplicationTests {
+				
+				@Autowired
+				private ListeningService listeningService;
+				
+				@MockBean
+				private UserRepository userRepository;
+				
+				@MockBean
+				private SongRepository songRepository;
+				
+				@MockBean
+				private ListeningRepository listeningRepository;
+				
+				@MockBean
+				private PasswordEncoder encoder;
+				
+				@Test
+				public void testInsertListeningSuccess() {
+					// Creo e setto gli oggetti fittizzi
+					User mockUser = new User();
+					mockUser.setEmail("mock.user@mail.com");
+					mockUser.setUsername("mockUser");
+					mockUser.setPassword(encoder.encode("password"));
+					Song mockSong = new Song();
+					mockSong.setId(1L);
+					mockSong.setTitle("mockSong");
+					mockSong.setYear(2000);
+					mockSong.setGenre("Genere");
+					mockSong.setType(SongType.ORIGINAL);
+					
+					// Li cerco nei miei repositori fittizzi
+					when(userRepository.findById("mock.user@mail.com")).thenReturn(Optional.of(mockUser));
+					when(songRepository.findById(1L)).thenReturn(Optional.of(mockSong));
+					
+					AddRemoveListeningDTO dto = new AddRemoveListeningDTO("mock.user@mail.com", 1L);
+					
+					// Mando in esecuzione il test vero e proprio
+					Payload result = listeningService.insertListening(dto);
+					
+					// Verifico i miei output
+					assertEquals(HttpStatus.OK.value(), result.statusCode());
+					assertEquals("Canzone ascoltata con successo", result.msg());
+					
+					// Verifico nella mia repository
+					verify(userRepository).findById("mock.user@mail.com");
+					verify(songRepository).findById(1L);
+					verify(listeningRepository).save(any(Listening.class));
+				}
+			}
+		\end{lstlisting}
+		
+		\subsection{Metodo 2}
+		\subsection{Metodo 3}
+		\subsection{Metodo 4}
+		\newpage
 	\section{Valutazione dell'usabilità sul campo}
-		\subsubsection{Valutazione dell'applicativo}
-		\subsubsection{Analisi delle performance}
-		\subsubsection{Distribuzione ed accoglienza VALUTARE}
-	\section{Conclusione (Riepilogo)}
+	All'interno di quest'ultimo capitolo si analizzerà \textbf{l'usabilità sul campo} con un prodotto semi-finito.\\
+	Tutto ciò è importante in quanto va ad influenzare direttamente l'esperienza dell'utente, l'efficacia operativa, la qualità del prodotto e la capacità di raggiungere un pubblico più ampio.\\
+	Investire sull'usabilità è essenziale per poter creare un prodotto di successo e per poter soddisfare le esigenze dei clienti.\\
+	I punti cruciali, infatti, sono:
+	\begin{itemize}
+		\item \textbf{Soddisfazione dell'utente:}
+		\begin{itemize}
+			\item Un'interfaccia utente intuitiva e facile da utilizzare migliora l'esperienza dell'utente finale e aumenta la sua soddisfazione.
+			\item Gli utenti apprezzano e preferiscono prodotti e applicazioni che sono semplici e piacevoli da utilizzare.
+		\end{itemize}
+		\item \textbf{Efficienza operativa:}
+		\begin{itemize}
+			\item Un'interfaccia utente ben progettata consente agli utenti di svolgere i loro compiti in modo più rapido ed efficiente.
+			\item Maggiore produttività e una riduzione dei tempi e degli sforzi necessari per completare le attività.
+		\end{itemize}
+		\item \textbf{Riduzione degli errori:}
+		\begin{itemize}
+			\item Un'interfaccia intuitiva e con feedback chiari aiuta a prevenire gli errori degli utenti durante l'utilizzo del prodotto.
+			\item Ciò riduce i costi e il tempo necessario per correggere gli errori e migliorare la qualità complessiva del prodotto.
+		\end{itemize}
+		\item \textbf{Accessibilità e inclusività:}
+		\begin{itemize}
+			\item Un'interfaccia utente ben progettata è accessibile a utenti con diverse abilità, età e background.
+			\item Questo aumenta l'inclusività e assicura che il prodotto possa essere utilizzato da un'ampia base di utenti.
+		\end{itemize}
+		\item \textbf{Adattabilità e flessibilità:}
+		\begin{itemize}
+			\item Un'interfaccia utente ben progettata è in grado di adattarsi a diversi contesti d'uso, dispositivi e requisiti.
+			\item Ciò aumenta la versatilità e la longevità del prodotto, rendendolo più adattabile alle esigenze future.
+		\end{itemize}
+	\end{itemize}
+		\subsection{Valutazione dell'applicativo}
+		L'usabilità sul campo è stata valutata grazie a due operazioni in particolare: \textbf{valutazioni euristiche} e utilizzo dei \textbf{file di log} (trattati in seguito).\\
+		Per quanto riguarda la prima, sono stati individuati tre esperti a cui sottoporre alcune domande, tenendo a mente \textbf{le 8 regole di Shneiderman}.\\
+		Tali quesiti hanno come scopo quello di testare l'applicativo e trovare eventuali difetti.
+		Le domande che sono state poste sono le seguenti:
+		\begin{itemize}
+			\item \textbf{\textit{\textcolor{dark_purple}{C'è un alto grado di usabilità universale?}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Ci sono abbastanza riscontri informativi?}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Gli errori sono facilmente attivabili? E se si, c'è modo di annullarli?}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{Il carico di memoria a breve termine è basso?}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{L'applicazione è grado di rispondere in tempi utili?}}}
+			\item \textbf{\textit{\textcolor{dark_purple}{E' all'altezza di altri competitors?}}}
+		\end{itemize}
+		\subsubsection{Metodo euristico}
+		Gli utilizzatori individuati hanno avuto piena libertà di esplorare l'app ma sono stati dati loro due compiti\footnote{abbiamo già fornito agli utilizzatori un profilo utente sull'applicativo, evitando cosi di dover passare per la registrazione} generali da eseguire:
+		\begin{itemize}
+			\item Primo compito: Creare una playlist ed inserire almeno una canzone al suo interno
+			\item Secondo compito: Cercare un brano musicale ed ascoltarlo
+		\end{itemize}
+		Successivamente alla valutazione euristica gli stessi utenti sono stati valutati per scoprire chi è stato l’utilizzatore più attento e chi meno.\\
+		I compiti assegnati sono stati eseguiti tutti in tempi brevi dai nostri valutatori. Si ha, dunque, una misura dell'usabilità abbastanza elevata che va a centrare l'obiettivo iniziale ovvero, quello di avere un grado di usabilità sul campo molto vicino a quello effettuato sui prototipi.\\
+		Evitando cambiamenti durante lo sviluppo dell'app che avrebbe portato ad una maggiore quantità di tempo e risorse impiegate, si è evitato il rischio di abbassare il grado di usabilità del prodotto rispetto al prototipo, falsando ed invalidando quest'ultimo.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/tabella}
+		\end{figure}
+		Come rappresentato in tabella i difetti riscontrati dagli utilizzatori sono tre.\\
+		\textit{NOTA: Abbiamo voluto indicare che la creazione di una playlist sia andata a buon fine per tutti gli utilizzatori in quanto era uno dei compiti che era stato richiesto}
+		
+		\begin{itemize}
+			\item \textbf{Bug aggiunta canzone a playlist:} 
+			Quando l'utente tentava di selezionare una canzone da aggiungere alla playlist, veniva presentata una schermata che mostrava tutte le playlist create sul suo profilo. Tuttavia, in alcuni casi, l'utente non riusciva a selezionare una singola playlist specifica, il che creava problemi nell'aggiunta del brano desiderato alla playlist corretta.\\
+			\textit{\textbf{Questo errore è stato risolto}}
+			
+			\item \textbf{Errore ricerca brano musicale:}
+			Se non vengono rispettati i parametri di ricerca sviluppati dall'ingegnere del software responsabile di questa funzionalità, l'applicativo non sarà mai in grado di restituire in modo accurato la traccia musicale desiderata dall'utente finale.
+			\item \textbf{Bug riproduzione brano da player:}
+			Se l'utente non concede il permesso per le notifiche quando l'applicazione è in esecuzione, il player multimediale non potrà essere visualizzato nella barra delle notifiche. Di conseguenza, l'utente non sarà in grado di utilizzare il player al di fuori dell'applicazione stessa.
+		\end{itemize}
+		Sono stati ritenuti importanti tutti gli errori che sono stati riscontrati dagli osservatori ma, in particolare, è stata Flavia P. ad essere stata individuata come \textit{utente più attento}, in quanto è riuscita a riscontrare due problematiche che gli sviluppatori dell'applicativo risolveranno in un futuro immediato.
+		Gli utilizzatori sono stati invitati a rispondere alle domande citate ad inizio paragrafo, delle quali sono state riportate le loro risposte.
+		\includepdf[pages={1,2}]{Documenti/risposte.pdf}
+		Grazie alle interviste condotte, il team di sviluppo ritiene di aver ottenuto risultati soddisfacenti. 
+		\\Alcuni dei problemi e degli errori riscontrati sono stati già risolti, mentre per altre questioni il team si impegnerà a trovare una soluzione il prima possibile.\\
+		
+		Le risposte ricevute dagli utenti sono state nel complesso positive. Ciò sembra essere dovuto in parte alla fiducia accordata agli utilizzatori e ai controlli nonché alle conferme richieste durante le operazioni più critiche all'interno dell'applicazione. 
+		\\Questi accorgimenti hanno contribuito a migliorare l'affidabilità percepita del sistema.
+		\subsubsection{Metodo con monitoraggio}
+		Grazie all’uso di Firebase è stato possibile raccogliere un gran numero di informazioni circa il gradimento dell’applicazione e le sue prestazioni.\\
+		Si è fatto uso di:
+		\begin{itemize}
+			\item \textbf{Analytics:} per la raccolta di dati e statistiche sugli eventi all'interno dell'applicazione
+			\item \textbf{Crashlytics:} per la raccolta di dati circa le interruzioni anomale dell'applicativo. Fornisce dettagli su cosa ha causato l'arresto consentendo un controllo completo dell'applicazione per assicurarne la massima stabilità
+			\item \textbf{Performance:} per la raccolta di dati circa i tempi di risposta e di avvio
+		\end{itemize}
+	\section{Conclusione e valutazione del team}
+	In questo progetto abbiamo dato vita a  \textbf{SoundLab}, una piattaforma che permette agli utenti di ascoltare e gestire la propria musica preferita in modo intuitivo e personalizzato.\\
+	Attraverso l'analisi dei requisiti, la progettazione del modello funzionale e architetturale, e l'implementazione delle principali funzionalità, siamo riusciti a realizzare un'applicazione che risponde alle esigenze degli utenti target identificati.\\
+	Durante lo sviluppo, abbiamo posto particolare attenzione all'esperienza utente, creando un'interfaccia grafica semplice e intuitiva che facilita la navigazione e l'interazione con le varie funzionalità. Inoltre, l'adozione di tecnologie moderne e l'architettura modulare garantiscono flessibilità e scalabilità del sistema.\\
+	Nonostante i risultati raggiunti, esistono ancora numerosi margini di miglioramento e sviluppi futuri per l'applicazione.\\
+	Il team pensava a tali futuri sviluppi:
+	\begin{itemize}
+		\item Integrazione di funzionalità avanzate di analisi dei dati e raccomandazione di brani e playlist in base alle preferenze dell'utente
+		\item Implementazione di funzionalità collaborative, come la condivisione di playlist tra utenti
+		\item Integrazione di funzionalità di creazione e modifica di brani musicali
+		\item Implementazione di meccanismi di monetizzazione, come abbonamenti premium o vendita di contenuti aggiuntivi
+	\end{itemize}
+	Questi rappresentano solo alcuni degli ambiti di miglioramento e sviluppo futuro che potranno rendere SoundLab un'applicazione sempre più completa e in grado di soddisfare le esigenze degli appassionati di musica.
+	\\
+	Siamo estremamente soddisfatti del risultato finale del nostro lavoro. Il prodotto che abbiamo realizzato è non solo funzionale e rispondente alle esigenze degli utenti, ma anche innovativo e ben progettato.\\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{Immagini/31708}
+	\end{figure}
+	Abbiamo lavorato sodo come team per raggiungere questo obiettivo.
+	È stato gratificante vedere il nostro lavoro prendere forma e concretizzarsi. Abbiamo affrontato diverse sfide lungo il percorso, ma grazie alla \textbf{collaborazione} e alla tenacia di tutto il team siamo riusciti a superarle.\\
+	Siamo fiduciosi che il prodotto avrà un grande successo e avrà un impatto positivo sulla vita degli utenti; siamo davvero tanto entusiasti di vedere come verrà utilizzato e di come si evolverà nel tempo.\\
+	Ci teniamo a specificare di quanto sia stato \textbf{stimolante} lavorare in questo team, in quanto è stata fondamentale la \textbf{collaborazione} tra noi membri. Insieme abbiamo affrontato sfide complesse, discusso diverse soluzioni e trovato il modo migliore per procedere.
+	\\
+	Nonostante avessimo opinioni e competenze diverse all’interno del gruppo, ciò ha portato a un processo decisionale più ricco e a soluzioni più innovative.\\
+	Oltre al lavoro di squadra, riteniamo che sia stato molto formativo l'essere parte di questo team.
+	\textbf{Abbiamo imparato tantissimo l’uno dagli altri}, sia per quanto riguarda le competenze tecniche che l’approccio al lavoro, delineato da tantissima \textbf{serietà} e \textbf{professionalità}.\\
+	Le nostre conoscenze si sono ampliate e sono state sviluppate nuove abilità attraverso la formazione interna e la partecipazione a chiamate di “lavoro” e di “brainstorming”.\\
+	In definitiva, la nostra esperienza è da valutare come positiva. 
+	
 		
 \end{document}
