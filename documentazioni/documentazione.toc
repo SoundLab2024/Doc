@@ -52,18 +52,19 @@
 \contentsline {subsubsection}{\numberline {4.2.3}Class Diagram Library}{77}{subsubsection.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.2.4}Class Diagram Listening}{78}{subsubsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.3}Sequence Diagram di design}{79}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Sequence diagram Playlist}{81}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Ultimo Sequence}{83}{subsubsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.4}Gerarchie funzionali}{84}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Gerarchie funzionali Login}{84}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Gerarchie funzionali Homepage}{85}{subsubsection.4.4.2}%
-\contentsline {section}{\numberline {5}Codice xUnit}{87}{section.5}%
-\contentsline {subsection}{\numberline {5.1}CODICE DI PROVA}{87}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Metodo 2}{89}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Metodo 3}{89}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Metodo 4}{89}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Valutazione dell'usabilità sul campo}{90}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Valutazione dell'applicativo}{91}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Metodo euristico}{91}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Metodo con monitoraggio}{95}{subsubsection.6.1.2}%
-\contentsline {section}{\numberline {7}Conclusione e valutazione del team}{95}{section.7}%
+\contentsline {subsubsection}{\numberline {4.3.1}Sequence diagram Playlist}{79}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Sequence diagram User}{81}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Gerarchie funzionali}{83}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Gerarchie funzionali Login}{83}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Gerarchie funzionali Homepage}{84}{subsubsection.4.4.2}%
+\contentsline {section}{\numberline {5}Codice xUnit}{86}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Test InsertOneListening()}{87}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Test RemoveSongFromPlaylist()}{88}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Test InsertOneListening}{88}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Test testRegistration()}{89}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Test ChangePassword() - WhiteBox}{90}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Valutazione dell'usabilità sul campo}{92}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Valutazione dell'applicativo}{93}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Metodo euristico}{93}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Metodo con monitoraggio ed analisi dei log}{97}{subsubsection.6.1.2}%
+\contentsline {section}{\numberline {7}Conclusione e valutazione del team}{98}{section.7}%

@@ -650,7 +650,7 @@
 		\end{itemize}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.9\textwidth]{Immagini/mvp}
+			\includegraphics[width=0.8\textwidth]{Immagini/mvp}
 			\caption{Design Pattern MVP}
 		\end{figure}
 		\newpage
@@ -720,22 +720,9 @@
 		Per questioni di leggibilità e comprensione dei diagrammi, si è scelto di dividere i sequence diagram.\\
 		\textit{NOTA: Trattandosi di diagrammi molto ricchi, laddove sia necessario, si consiglia di zoomare per poter leggere bene il contenuto in quanto potrebbe risultare poco visibile}.
 		\subsubsection{Sequence diagram Playlist}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.6\textwidth]{Immagini/sequence1}
-			\caption{Parte Uno}
-		\end{figure}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.8\textwidth]{Immagini/sequence2}
-			\caption{Parte Due}
-		\end{figure}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.8\textwidth]{Immagini/sequence3}
-			\caption{Parte Tre}
-		\end{figure}
-		\subsubsection{Ultimo Sequence}
+		\includepdf[pages={1}]{Documenti/mergesequence1.pdf}
+		\subsubsection{Sequence diagram User}
+		\includepdf[pages={1}]{Documenti/mergesequence.pdf}
 		\newpage
 		\subsection{Gerarchie funzionali}
 		La gerarchia funzionale è un metodo per organizzare e rappresentare le funzioni di un sistema in modo gerarchico. Questo approccio permette di visualizzare le relazioni tra le diverse funzioni e sottosistemi, evidenziando come si suddividono i compiti e le responsabilità.\\
@@ -778,88 +765,133 @@
 			\item È particolarmente utile per garantire una buona copertura del codice, identificare bug logici e ottimizzare le prestazioni del software.
 		\end{itemize}
 	\end{itemize}
-		\subsection{CODICE DI PROVA}
-		\begin{lstlisting}[style=JavaStyle, caption={Il tuo codice Java}, label={lst:java_code}]
-			package com.soundlab;
+	\newpage
+		\subsection{Test InsertOneListening()}
+		\begin{lstlisting}[style=JavaStyle, label={lst:java_code}]
+			@Test
+			public void testInsertOneListening() {
+				AddRemoveListeningDTO dto = new AddRemoveListeningDTO(mockUser.getEmail(), mockSong.getId());
+				Payload result = listeningService.insertListening(dto);
+				
+				assertEquals(HttpStatus.OK.value(), result.statusCode());
+				assertEquals("Canzone ascoltata con successo", result.msg());
+				
+				verify(userRepository).findById("mock.user@mail.com");
+				verify(songRepository).findById(1L);
+				verify(listeningRepository).save(any(Listening.class));
+				
+			}
+		\end{lstlisting}
+		\newpage
+		\subsection{Test RemoveSongFromPlaylist()}
+		\subsection{Test InsertOneListening}
+		\begin{lstlisting}[style=JavaStyle, label={lst:java_code}]
+			@Test
+			public void testRemoveSongFromPlaylist(){
+				AddRemoveSongDTO dto = new AddRemoveSongDTO(mockPlay.getId(), mockSong.getId());
+				Payload result = playlistService.removeSong(dto);
+				
+				assertEquals(HttpStatus.OK.value(), result.statusCode());
+				assertEquals("Canzone rimossa con successo", result.msg());
+				assertEquals(0, mockPlay.getSongsNumber());
+				
+				verify(playlistRepository).findById(1L);
+				verify(songRepository).findById(1L);
+				verify(playlistRepository).save(any(Playlist.class));
+				
+			}
+		\end{lstlisting}
+		\newpage
+		\subsection{Test testRegistration()}
+		\begin{lstlisting}[style=JavaStyle, label={lst:java_code}]
+			@Test
+			public void testRegistration(){
+				
+				CredentialsDTO credentialsDTO = new CredentialsDTO("test@example.com", "password", "testUser", "Male", Date.valueOf("1990-01-01"));
+				
+				User user = User.builder()
+				.email(credentialsDTO.email())
+				.password("encodedPassword")
+				.username(credentialsDTO.username())
+				.role(Role.USER)
+				.birth(credentialsDTO.birth())
+				.gender(Gender.Male)
+				.active(true)
+				.build();
+				
+				Library library = Library.builder()
+				.user(user)
+				.playlistsNumber(0)
+				.build();
+				
+				when(userRepository.findById(credentialsDTO.email())).thenReturn(Optional.empty());
+				when(encoder.encode(credentialsDTO.password())).thenReturn("encodedPassword");
+				when(userRepository.save(any(User.class))).thenReturn(user);
+				when(libraryRepository.save(any(Library.class))).thenReturn(library);
+				when(jwtService.generateToken(user)).thenReturn("jwtToken");
+				
+				UserPayload result = authenticationService.register(credentialsDTO);
+				
+				assertEquals(HttpStatus.OK.value(), result.statusCode());
+				assertEquals("jwtToken", result.token());
+				assertEquals(user.getUsername(), result.email());
+				assertEquals(user.getName(), result.username());
+				assertEquals(user.getRole().toString(), result.role());
+				assertEquals(library.getId(), result.libraryId());
+				
+			}
+		\end{lstlisting}
+		\newpage
+		
+		\subsection{Test ChangePassword() - WhiteBox}
+		\begin{lstlisting}[style=JavaStyle, label={lst:java_code}]
+			@Test
+			public void testChangePassword_UserNotFound() { // Test user non trovato che quindi mi ritorna un optional vuoto
+				when(userRepository.findById("test@example.com")).thenReturn(Optional.empty());
+				RegistrationDTO registrationDTO = new RegistrationDTO("test@example.com", "oldPassword", "newPassword");
+				
+				Payload result = authenticationService.changePw(registrationDTO);
+				
+				assertEquals(HttpStatus.CONFLICT.value(), result.statusCode());
+				assertEquals("Impossibile completare la richiesta. I dati specificati non sono presenti nel sistema", result.msg());
+			}
 			
-			import com.soundlab.domain.Listening;
-			import com.soundlab.domain.Song;
-			import com.soundlab.domain.User;
-			import com.soundlab.domain.properties.SongType;
-			import com.soundlab.dto.records.AddRemoveListeningDTO;
-			import com.soundlab.service.ListeningService;
-			import com.soundlab.utils.response.Payload;
-			import org.junit.jupiter.api.Test;
-			import org.springframework.beans.factory.annotation.Autowired;
-			import org.springframework.boot.test.context.SpringBootTest;
-			import org.springframework.boot.test.mock.mockito.MockBean;
-			import org.springframework.http.HttpStatus;
-			import java.util.Optional;
+			@Test
+			public void testChangePassword_InvalidOldPassword() { // Test password vecchia invalida per qualche motivo specificato nella funzione
+				when(encoder.matches(anyString(), anyString())).thenReturn(false);
+				RegistrationDTO registrationDTO = new RegistrationDTO("test@example.com", "oldPassword", "newPassword");
+				
+				Payload result = authenticationService.changePw(registrationDTO);
+				
+				assertEquals(HttpStatus.BAD_REQUEST.value(), result.statusCode());
+				assertEquals("Impossibile completare la richiesta. I dati specificati non sono validi", result.msg());
+			}
 			
-			import org.springframework.security.crypto.password.PasswordEncoder;
-			import org.springframework.test.context.ContextConfiguration;
-			import com.soundlab.repository.*;
+			@Test
+			public void testChangePassword_OldEqualsNewPassword() {
+				when(encoder.matches("newPassword", user.getPassword())).thenReturn(true);
+				RegistrationDTO registrationDTO = new RegistrationDTO("test@example.com", "newPassword", "newPassword");
+				
+				Payload result = authenticationService.changePw(registrationDTO);
+				
+				assertEquals(HttpStatus.BAD_REQUEST.value(), result.statusCode());
+				assertEquals("Impossibile completare la richiesta. I dati specificati non sono validi", result.msg());
+			}
 			
-			import static org.mockito.Mockito.*;
-			import static org.junit.jupiter.api.Assertions.*;
-			
-			@SpringBootTest
-			@ContextConfiguration(classes = SoundlabApplication.class)
-			class SoundlabApplicationTests {
+			@Test
+			public void testChangePassword_Success() {
+				when(encoder.matches("oldPassword", user.getPassword())).thenReturn(true);
+				when(encoder.encode("newPassword")).thenReturn("encodedNewPassword");
+				RegistrationDTO registrationDTO = new RegistrationDTO("test@example.com", "oldPassword", "newPassword");
 				
-				@Autowired
-				private ListeningService listeningService;
+				Payload result = authenticationService.changePw(registrationDTO);
 				
-				@MockBean
-				private UserRepository userRepository;
-				
-				@MockBean
-				private SongRepository songRepository;
-				
-				@MockBean
-				private ListeningRepository listeningRepository;
-				
-				@MockBean
-				private PasswordEncoder encoder;
-				
-				@Test
-				public void testInsertListeningSuccess() {
-					// Creo e setto gli oggetti fittizzi
-					User mockUser = new User();
-					mockUser.setEmail("mock.user@mail.com");
-					mockUser.setUsername("mockUser");
-					mockUser.setPassword(encoder.encode("password"));
-					Song mockSong = new Song();
-					mockSong.setId(1L);
-					mockSong.setTitle("mockSong");
-					mockSong.setYear(2000);
-					mockSong.setGenre("Genere");
-					mockSong.setType(SongType.ORIGINAL);
-					
-					// Li cerco nei miei repositori fittizzi
-					when(userRepository.findById("mock.user@mail.com")).thenReturn(Optional.of(mockUser));
-					when(songRepository.findById(1L)).thenReturn(Optional.of(mockSong));
-					
-					AddRemoveListeningDTO dto = new AddRemoveListeningDTO("mock.user@mail.com", 1L);
-					
-					// Mando in esecuzione il test vero e proprio
-					Payload result = listeningService.insertListening(dto);
-					
-					// Verifico i miei output
-					assertEquals(HttpStatus.OK.value(), result.statusCode());
-					assertEquals("Canzone ascoltata con successo", result.msg());
-					
-					// Verifico nella mia repository
-					verify(userRepository).findById("mock.user@mail.com");
-					verify(songRepository).findById(1L);
-					verify(listeningRepository).save(any(Listening.class));
-				}
+				assertEquals(HttpStatus.OK.value(), result.statusCode());
+				assertEquals("Operazione completata con successo", result.msg());
+				verify(userRepository, times(1)).save(user);
 			}
 		\end{lstlisting}
 		
-		\subsection{Metodo 2}
-		\subsection{Metodo 3}
-		\subsection{Metodo 4}
 		\newpage
 	\section{Valutazione dell'usabilità sul campo}
 	All'interno di quest'ultimo capitolo si analizzerà \textbf{l'usabilità sul campo} con un prodotto semi-finito.\\
@@ -940,12 +972,43 @@
 		
 		Le risposte ricevute dagli utenti sono state nel complesso positive. Ciò sembra essere dovuto in parte alla fiducia accordata agli utilizzatori e ai controlli nonché alle conferme richieste durante le operazioni più critiche all'interno dell'applicazione. 
 		\\Questi accorgimenti hanno contribuito a migliorare l'affidabilità percepita del sistema.
-		\subsubsection{Metodo con monitoraggio}
+		\subsubsection{Metodo con monitoraggio ed analisi dei log}
+		\begin{center}
+			\textbf{\textit{\textcolor{dark_purple}{Debug library in Android}}}\\
+		\end{center}
+		Per utilizzare un metodo facile e intuitivo di debuggare il codice android durante lo sviluppo è stata ritenuta valida la \textbf{libreria Log} fornita da Android Studio; i log vengono visualizzati all’interno del \textbf{Logcat} dell’applicativo:
+		\begin{center}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/log}
+			\end{figure}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/log1}
+			\end{figure}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=0.9\textwidth]{Immagini/log2}
+			\end{figure}
+			
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=1.0\textwidth]{Immagini/logcat}
+			\end{figure}
+		\end{center}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.9\textwidth]{Immagini/fotoanalitiche}
+		\end{figure}
+		\begin{center}
+			\textbf{\textit{\textcolor{dark_purple}{Analisi dei file di log by Google Analytics}}}\\
+		\end{center}
 		Grazie all’uso di Firebase è stato possibile raccogliere un gran numero di informazioni circa il gradimento dell’applicazione e le sue prestazioni.\\
 		Si è fatto uso di:
 		\begin{itemize}
 			\item \textbf{Analytics:} per la raccolta di dati e statistiche sugli eventi all'interno dell'applicazione
-			\item \textbf{Crashlytics:} per la raccolta di dati circa le interruzioni anomale dell'applicativo. Fornisce dettagli su cosa ha causato l'arresto consentendo un controllo completo dell'applicazione per assicurarne la massima stabilità
 			\item \textbf{Performance:} per la raccolta di dati circa i tempi di risposta e di avvio
 		\end{itemize}
 	\section{Conclusione e valutazione del team}
@@ -967,8 +1030,9 @@
 		\centering
 		\includegraphics[width=0.8\textwidth]{Immagini/31708}
 	\end{figure}
-	Abbiamo lavorato sodo come team per raggiungere questo obiettivo.
-	È stato gratificante vedere il nostro lavoro prendere forma e concretizzarsi. Abbiamo affrontato diverse sfide lungo il percorso, ma grazie alla \textbf{collaborazione} e alla tenacia di tutto il team siamo riusciti a superarle.\\
+	Abbiamo lavorato sodo come team per raggiungere questo obiettivo.\\
+	È stato gratificante vedere il nostro lavoro prendere forma e concretizzarsi. 
+	\\Abbiamo affrontato diverse sfide lungo il percorso, ma grazie alla \textbf{collaborazione} e alla tenacia di tutto il team siamo riusciti a superarle.\\
 	Siamo fiduciosi che il prodotto avrà un grande successo e avrà un impatto positivo sulla vita degli utenti; siamo davvero tanto entusiasti di vedere come verrà utilizzato e di come si evolverà nel tempo.\\
 	Ci teniamo a specificare di quanto sia stato \textbf{stimolante} lavorare in questo team, in quanto è stata fondamentale la \textbf{collaborazione} tra noi membri. Insieme abbiamo affrontato sfide complesse, discusso diverse soluzioni e trovato il modo migliore per procedere.
 	\\
@@ -977,6 +1041,14 @@
 	\textbf{Abbiamo imparato tantissimo l’uno dagli altri}, sia per quanto riguarda le competenze tecniche che l’approccio al lavoro, delineato da tantissima \textbf{serietà} e \textbf{professionalità}.\\
 	Le nostre conoscenze si sono ampliate e sono state sviluppate nuove abilità attraverso la formazione interna e la partecipazione a chiamate di “lavoro” e di “brainstorming”.\\
 	In definitiva, la nostra esperienza è da valutare come positiva. 
+	\newpage
+	\vspace{0.5cm}
+	\begin{figure}[H]
+	\includegraphics[width=0.9\textwidth]{Immagini/logo_sfondo}
+	\\
+	\textit{© SoundLab è un prodotto ideato e sviluppato da poveri studenti di informatica. Gli autori, in quanto tali, detengono ogni diritto dello stesso in maniera esclusiva.}
+	
+	\end{figure}
 	
 		
 \end{document}
